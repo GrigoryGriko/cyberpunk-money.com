@@ -1,0 +1,460 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700|Kanit|Open+Sans|Open+Sans:700|Source+Sans+Pro|Source+Sans+Pro:700);
+
+::selection {
+background: #B4FF00;
+}
+
+html {    
+	height: 100%;
+	max-width: 100%;
+}
+body {
+	height: 100%;
+	font: 14px/18px 'Times New Roman', Times, sans-serif;
+	background: #F5F5F5 url(../img/home/background.png) repeat 0 0;
+	overflow-x: hidden !important;
+}
+.over_wrapper {
+	height: 9px;
+	background: #F5F5F5 url(../img/home/over_wrapper.png) repeat-x 0 0;
+}
+.wrapper {
+	margin: 0; /* Убираем отступы */
+	height: 100%;
+}
+.container {
+	width: 1002px;
+	height: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding:0;
+	outline: none;
+}
+
+a, a:hover {text-decoration: none;}
+
+
+
+.left {float:left}
+.right {float:right;}
+
+.content_left {
+	display: inline-block;
+	width: 300px;
+	min-height: 650px;
+}
+
+/**/
+/*header left*/
+
+.container_left_header {
+	display: inline-block;
+	width: 300px;
+	height: 137px;
+}
+.left_header {
+	height: 137px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+}
+
+/*header left*/
+/*content left*/
+
+.container_left_panel {
+	display: inline-block;
+	padding: 0;
+	min-height: 650px;
+	width: 300px;
+}
+.left_panel {
+	display: table;
+	width: 237px;
+	height: 45px;
+	background: url(../img/home/header_stats.png) no-repeat;
+	background-size: 237px 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 31px;
+}
+.text_left_panel {
+	display: table-cell;
+	color: #5f5f5f;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0;
+	text-shadow: 1px 1px 2px #FFF;
+	vertical-align: middle;
+	padding-left: 21px;
+}
+
+.stat_line {
+	display: table;
+	width: 223px;
+	height: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11px;
+	color: #000;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0;
+}
+.stat_num {
+	display: table-cell;
+	font: 15px/15px Kanit;
+	letter-spacing: 0.9px;
+	text-align: right;
+}
+/*content left*/
+
+.content {
+	display: inline-block;
+	position: absolute;
+	width: 800px;
+	min-height: 650px;
+}
+
+/*content left*/
+/*header center*/
+
+.container_header {
+	display: inline-block;
+	width: 800px;
+	height: 65px;
+}
+.header {
+	margin-top: 9px;
+	width: 792px;
+	height: 51px;
+	background: url(../img/home/header.png) no-repeat;
+	background-size: 792px 51px;
+	margin-left: 2px;
+}
+
+.li_header {
+	float: left;
+
+}
+.li_header li {
+	float:left;
+}
+
+.li_header li:last-child {
+	margin-right: 0;
+}
+
+
+/*bloks header*/
+/*помощь*/
+
+#header_help_btn, #header_help_btn2 {
+	display: inline-block;
+	position: relative;
+	margin-left: 3px;
+	margin-top: 3px;
+	height: 42px;
+	width: 83px;
+}
+#header_help_btn span, #header_help_btn2 span {
+	display: inline-block;
+	position: absolute;
+	left: 17px;
+	top: 18px;
+}
+
+/*помощь*/
+/*партнерская программа*/
+
+#header_partners_btn, #header_partners_btn2 {
+	display: inline-block;
+	position: relative;
+	margin-top: 3px;
+	height: 42px;
+	width: 182px;
+}
+#header_partners_btn span, #header_partners_btn2 span {
+	display: inline-block;
+	position: absolute;
+	left: 13px;
+	top: 18px;
+}
+
+/*партнерская программа*/
+/*правила*/
+
+#header_rules_btn, #header_rules_btn2 {
+	display: inline-block;
+	position: relative;
+	margin-top: 3px;
+	height: 42px;
+	width: 83px;
+}
+#header_rules_btn span, #header_rules_btn2 span {
+	display: inline-block;
+	position: absolute;
+	left: 13px;
+	top: 18px;
+}
+
+/*правила*/
+/*bloks header*/
+
+.li_header a {
+	display: block;
+	color: #5f5f5f;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0;
+	text-shadow: 1px 1px 1px #FFF;
+	text-decoration: none; /* Убираем подчеркивание */
+}
+
+
+
+.li2_header {
+	margin-top: 17px;
+	margin-left: 187px;
+	float: left;
+}
+.li2_header li {
+	float:left;
+	margin-right: 8px;
+}
+.li2_header li:last-child {
+	margin-right: 0;
+	margin-top: -2px;
+}
+
+/*Регистрация*/
+
+#register-btn, #register-btn2 {
+	display: inline-block;
+	position: relative;
+}
+#register-btn span, #register-btn2 span {
+	display: inline-block;
+	position: absolute;
+	left: 13px;
+	top: 5px;
+	color: #FFF;
+	font: 14px/14px Source Sans Pro;
+	letter-spacing: 0;
+}
+
+/*Регистрация*/
+/*Авторизация*/
+
+#login-btn, #login-btn2 {
+	display: inline-block;
+	position: relative;
+}
+#login-btn span, #login-btn2 span {
+	display: inline-block;
+	position: absolute;
+	left: 13px;
+	top: 6px;
+}
+#login-btn span {
+	color: #EFAD00;
+	font: 14px/14px Source Sans Pro;
+	letter-spacing: 0;
+}
+#login-btn2 span {
+	color: #FFF;
+	font: 14px/14px Source Sans Pro;
+	letter-spacing: 0;
+}
+
+/*Авторизация*/
+
+/*header center*/
+/*------------------------------------------------------content-------------------------------------------------------*/
+/*content center*/
+
+
+
+
+.center_panel {
+	width: 788px;
+	padding: 0;
+	min-height: 650px;
+}
+.center_panel h1{
+	margin-top: 36px;
+	color: #000;
+	font: 20px/20px Source Sans Pro;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+.title_content {
+
+}
+.v_faq {
+	color: #000;
+	font: 13px/13px Open Sans;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-top: 27px;
+}
+.v_question {
+	color: #000;
+	font: 13px/13px Open Sans;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-left: 8px;
+	padding-left: 16px;
+	margin-top: 22px;
+	padding-bottom: 5px;
+	background: url(../img/tickets/arrow_text_close.png) no-repeat 0px 0px;
+}
+
+#v_list {
+	color: #000;
+	font: 13px/13px Open Sans;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-left: 32px;
+}
+#v_list li {
+	margin-top: 17px;
+	padding-left: 16px;
+	background: url(../img/tickets/arrow_text_close.png) no-repeat 0px 0px;
+}
+#v_list a {
+	color: #0081D4;
+	text-decoration: underline;
+}
+
+#v_list a:hover {
+	color: #27B1FF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#v_answer {
+	display: none;
+	overflow: hidden;
+	width: 700px;
+	margin-top: 3px;
+	margin-left: 17px;
+	padding-left: 11px;
+ 	background-color: #E7E7E7;
+
+ 	color: #000;
+	font: 13px/13px Open Sans;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+/*content center*/
+/*------------------------------------------------------content-------------------------------------------------------*/
+/*footer*/
+
+.footer {
+	display: inline-block;
+	margin-top: 465px;
+	height: 109px;
+	width: 1002px;
+	margin-left: 43px;
+}
+.border_footer {
+	display: block;
+}
+.container_footer {
+	display: block;
+	margin-left: 72px;
+}
+.logo_footer {
+	display: block;
+	float: left;
+	margin-top: 6px;
+	margin-right: 40px;
+}
+.content_footer {
+	display: block;
+}
+
+/*news roots etc.*/
+
+.text_footer_top {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 22px;
+}
+.text_footer_top li {
+	float:left;
+	margin-right: 23px; 
+}
+.text_footer_top a { 
+	color: #0081D4;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0;
+	text-decoration: underline;
+}
+.text_footer_top a:hover { 
+	text-decoration: none;
+}
+.text_footer_top li:last-child {margin-right: 0;}
+
+}
+
+
+
+
+.text_footer_bottom {
+	display: inline-block;
+}
+.text_footer_bottom li:first-child {
+	float:left;
+	color: #313131;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0;
+	margin-right: 9px; 
+
+}
+.text_footer_bottom li:nth-child(2n) {
+	float:left;
+	margin-right: 62px; 
+}
+.text_footer_bottom a { 
+	color: #0081D4;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0;
+	text-decoration: underline;
+}
+.text_footer_bottom a:hover { 
+	text-decoration: none;
+}
+.text_footer_bottom li:last-child {
+	float:left;
+	color: #313131;
+	font: 13px/13px Open Sans;
+	letter-spacing: 0; 
+	margin-right: 0;
+}
+
+/*news roots etc.*/
+/*footer*/
+
+
+/*
+
+Помощь при верстке
+   A:link { 
+    text-decoration: none; Убирает подчеркивание для ссылок 
+   } 
+   A:visited { text-decoration: none; } 
+   A:active { text-decoration: none; }
+   A:hover {
+    text-decoration: underline;  Делает ссылку подчеркнутой при наведении на нее курсора 
+    color: red;  Цвет ссылки 
+   } 
+
+*/

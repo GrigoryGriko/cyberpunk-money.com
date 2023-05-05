@@ -1,0 +1,244 @@
+@import url(/auth/style/style.css);
+/*-------------MY_CABINET-------------------------VVVVVVVVVVVVVV------------------------------*/
+
+.left_panel {
+	min-height: 2600px;
+}
+
+
+
+.stroke_1_center_panel {
+	background: #FFF;
+}
+.stroke_2_center_panel {
+	background: #FBFBFB;
+	border-top: 1px solid #E6ECED;
+	border-bottom: 1px solid #E6ECED; 
+}
+.box_strokeafter_2_center_panel {
+	display: block;
+	width: 75vw;
+	margin-left: 2.73vw;
+	margin-top: 30px;
+}
+	.box_1_center_panel {
+		display: block;
+		float: left;
+		margin-right: 1.17vw;
+	}
+		.element_1_stroke_3_box_1_center_panel {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 73.94vw;
+			
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;			
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+		}
+			.box_imt_text {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 95%;
+				margin: 22px 0px 20px 0px;
+			}
+				.img_e1s3b1cp {
+					display: block;
+					width: 100px;
+					height: auto;
+					padding-right: 23px;
+				}
+				.text_e1s3b1cp {
+					font: 16px "Fira Sans Condensed";
+				    color: #383838;
+				    font-weight: 400;
+				    letter-spacing: 0.025em;
+				    line-height: 25px;
+				}
+					.text_e1s3b1cp a, .text_e1s3b1cp a:visited {
+						color: #66a535;
+					}
+					.text_e1s3b1cp a:hover {
+						color: #6b35a5;
+					}
+
+		.element_1_stroke_4_box_1_center_panel {
+			display: block;
+			float: left;
+			width: 73.94vw;
+			margin-right: 1.7vw;
+			margin-top: 12px;
+			
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;	
+			-o-border-radius: 4px;
+			-ms-border-radius: 4px;		
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+			padding: 25px 0 25px 0;
+		}
+			.box_e1s4b1cp {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 10px 0 10px 0;
+				width: 100%;
+				height: 100%;
+			}
+/*-----------VVVVVVVVVVVVVVVVVVVVVVVV------Сложная Таблица с ячеками---------------------------*/	
+					.table_element_1_stroke_4_box_2_center_panel {
+						display: block;
+						width: 95%;
+						border-radius: 4px;
+						-webkit-border-radius: 4px;
+						-moz-border-radius: 4px; 
+						border: 1px solid #e2e2e2;
+						padding: 0px 0px 0px 0px;
+						margin-left: auto;
+						margin-right: auto;
+						border-collapse: collapse; /*убрать двойные линии между ячейками*/
+
+						text-align: center;
+
+					}
+					.table_element_1_stroke_4_box_2_center_panel td {
+						width: 1%; /*для растягивания ячеек по рамке*/
+						padding: 0px 0px 0px 0px;
+						height: 40px;	/*вертикальное выравнивание*/
+						line-height: 14px;		/*вертикальное выравнивание*/
+						border-bottom: 1px solid #e2e2e2;
+						border-right: 1px solid #e2e2e2;
+						padding-left: 15px;
+						padding-right: 15px;
+					}
+						.contain_data {
+							font: 15px "Roboto";
+		                    color: #383838;
+		                    font-weight: 400;
+		                    letter-spacing: 0.015em;
+		                    line-height: 25px;
+						}
+							.contain_data span {
+								font: 13px "Roboto";
+							}
+						.lvl_num {
+							font: 14px "Fira Sans Condensed";
+		                    color: #383838;
+		                    font-weight: 400;
+		                    letter-spacing: 0.015em;
+		                    line-height: 25px;
+						}
+							.image_text_into_td {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+							}
+								.image_mineral {
+									display: block;
+									margin-right: 5px;
+									width: 22px;
+									height: auto;
+								}
+
+					.table_element_1_stroke_4_box_2_center_panel th {
+						padding: 0px 0px 0px 0px;
+							/*вертикальное выравнивание*/
+						line-height: 14px;		/*вертикальное выравнивание*/
+						border-bottom: 1px solid #e2e2e2;
+						border-right: 1px solid #e2e2e2;
+						padding-left: 15px;
+						padding-right: 15px;
+
+						background: #e4f7f9;
+						
+						
+					}
+					.th_1 {
+						height: 45px;
+
+						font: 15px "Roboto";
+			            color: #1699da;
+			            font-weight: 900;
+			            letter-spacing: 0.075em;
+			            text-transform: uppercase;
+					}
+						.th_1_img {
+							display: block;
+							margin-right: 5px;
+						}
+					.th_2 {
+						height: 38px;
+
+						font: 12px "Roboto";
+			            color: #1699da;
+			            font-weight: 400;
+			            letter-spacing: 0.075em;
+					}
+					.th_2 span {
+						text-transform: uppercase;
+					}
+					.image_i {
+						display: block;
+						margin-right: 5px;
+					}
+
+					.table_element_1_stroke_4_box_2_center_panel th:last-child {
+						border-right: none;
+					}
+					.table_element_1_stroke_4_box_2_center_panel tr:last-child th{
+						border-bottom: none;
+					}
+
+					#tr_fill {
+						background: #f6feff;
+						font-weight: 600;
+		                font-style: italic;
+					}
+
+					.table_element_1_stroke_4_box_2_center_panel td:last-child {
+						border-right: none;
+					}
+					.table_element_1_stroke_4_box_2_center_panel tr:last-child td{
+						border-bottom: none;
+					}
+		/*-----------AAAAAAAAAAAAAAAAAAAAAAAAAAA------Сложная Таблица с ячеками--------------------------*/		
+						.col_1_table_e1s3b1cp {
+							display: flex;		/*вертикальное выравнивание*/
+							justify-content: center;
+							align-items: center;
+							width: 27px;
+							height: 27px;
+							margin-left: auto;
+							margin-right: auto;
+
+							color: #fff;
+
+							
+							background: linear-gradient(45deg, #61d082, #a1e288);
+							-webkit-border-radius: 50%;		/*для других браузеров*/
+							-moz-border-radius: 50%;
+							-o-border-radius: 50%;
+							-ms-border-radius: 50%;					
+							border-radius: 50%; 
+						}
+
+						.tourmaline {
+							background: linear-gradient(45deg, #bbbbbb, #808080);
+						}
+						.topaz {
+							background: linear-gradient(45deg, #8b61d0, #889ee2);
+						}
+						.emerald {
+							background: linear-gradient(45deg, #61d082, #a1e288);
+						}
+						.diamond {
+							background: linear-gradient(45deg, #7db3e9, #a5e6e4);
+						}
+@media screen and (max-device-width: 1240px) {
+.element_1_stroke_4_box_1_center_panel:last-child {
+	margin-bottom: 75px;
+}

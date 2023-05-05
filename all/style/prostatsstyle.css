@@ -1,0 +1,268 @@
+@import url(/all/style/main_style.css);
+
+
+
+            .content_1 .stroke_1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                margin-top: 60px;
+                width: 100%;
+                height: 100px;
+
+                position: relative;
+            }
+                .stroke_1 .text_1 {
+                    white-space: nowrap;    /*убрать перенос слов*/
+
+                    color: #525252;
+                    font: 12px Source Sans Pro;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    font-weight: 600;
+                }
+
+                .container_round_shape {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 820px;
+
+                    margin-top: 27px;
+                }
+
+                    .content_1 .line_left, .content_1 .line_right {
+                        width: 100%;
+                        height: 1px;
+                        background: #efefef;
+                        content: "";    /*контент блока, в данном случае пустой, чтобы отображался*/
+                        
+                    }
+                    .stroke_1 .text_2 {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #efefef;
+                        border-radius: 5em;
+                        white-space: nowrap;    /*убрать перенос слов*/
+
+                        padding: 20px 32px 20px 32px;
+                    }
+                        .stroke_1 .text {
+                            color: #525252;
+                            font-family: 'Fira Sans Condensed';
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            font-size: 38px;
+                            font-weight: 700;
+                        }
+                        .container_round_shape div > img {
+                            width: 15px;
+                            height: auto;
+                            top: -15px;
+                            left: 33px;
+                            position: absolute;
+                        }
+
+            .content_1 .stroke_2 {
+                display: flex;
+                justify-content: space-between;
+                width: 1200px;
+                min-height: 500px;
+                margin-top: 60px;
+            }
+                .graphic_1, .graphic_2 {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 530px;
+                }
+                .canvas_graphic {
+                    display: flex;
+                    align-items: center;
+                    width: 514px;
+                    height: 358px;
+                    overflow: hidden;
+                }
+                    .chart_div {
+                    }
+
+                    .stroke_2 .text_1 {
+                        margin-bottom: 0;
+
+                        text-transform: none;
+                        letter-spacing: 1px;
+                        font: 16px "Fira Sans Condensed";
+                        text-align: center;
+                        color: #23242C;
+                        font-weight: 700;
+                    }
+                    .stroke_2 .text_2 {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 90%;
+                        margin-bottom: 10px;
+                        white-space: nowrap; /*убрать перенос слов*/
+
+                        text-transform: none;
+                        letter-spacing: 2px;
+                        color: #2b2b2b;
+                        font: 14px "Fira Sans Condensed";
+                        font-weight: 700;
+                    }
+                    .otstup {
+                        margin-top: 30px;
+                    }
+                    .stroke_2 .text_2:last-child {
+                        margin-bottom: 0;
+                    }
+                    .stroke_2 .box_line_shadow {
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        height: 60px;
+                        background: transparent;
+                    }
+                    .box_line_shadow:hover .line_shadow_stroke_2 {
+                        border-bottom: 1px solid rgba(238, 238, 238, 1);
+                        box-shadow: 0px 0px 45px -10px rgba(119, 119, 119, 0);
+
+                        -webkit-transition: all 0.4s linear;
+                        -moz-transition: all 0.4s linear;
+                        -o-transition: all 0.4s linear;
+                        -ms-transition: all 0.4s linear;
+                        transition: all 0.4s linear; /*плавное изменение свойств*/
+                    }
+
+                        .stroke_2 .sub_line_shadow {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 90%;
+                            height: 30px;
+                            background: #fff;
+                            border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+                        }
+                            .stroke_2 .line_shadow_stroke_2 {
+                                width: 70%;
+                                height: 30px;
+                                background: #fff;
+                                border-bottom: 1px solid rgba(225, 225, 225, 1);
+                                box-shadow: 0px 11px 45px -5px rgba(119, 119, 119, 0.22);
+
+                                -webkit-transition: all 0.3s linear;
+                                -moz-transition: all 0.3s linear;
+                                -o-transition: all 0.3s linear;
+                                -ms-transition: all 0.3s linear;
+                                transition: all 0.3s linear; /*плавное изменение свойств*/
+                            }
+
+                    .stroke_3 {
+                        display: flex;
+                        flex-direction: column;
+
+                        margin-top: 50px;
+                    }
+                        .two_tables {
+                            display: flex;
+                            justify-content: center;
+
+                            margin-bottom: 26px;
+                        }
+                        .bottom_two_tables {
+                            margin-bottom: 120px;
+                        }
+                            .stroke_3 .block {
+                                display: flex;
+                                flex-direction: column;
+
+                                margin-right: 30px;
+
+                                width: 572px;
+                                min-height: 381px;
+                            }
+                           
+                            .stroke_3 .block_stroke_1 .icon_img {
+                                margin-right: 20px;
+                            }
+                                .block_text {
+                                    display: flex;
+                                    justify-content: center;
+                                    height: 60px;
+                                    flex-direction: column;
+                                }
+
+                                .block_stroke_1 .text_1 {
+                                    color: #525252;
+                                    font: 15px "Fira Sans Condensed";
+                                    font-weight: 700;
+                                    text-align: left;
+
+                                    margin-bottom: 15px;
+                                    letter-spacing: 1px;
+                                }
+                                .block_stroke_1 .text_2 {
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                    .block_stroke_1 .text_2 .icon_time {
+                                        margin-right: 7px;
+                                    }
+                                    .block_stroke_1 .text_2 .text {
+                                        font: 13px "Fira Sans Condensed";
+                                        color: #43a0f3;
+                                        font-weight: 700;
+                                        letter-spacing: 1px;
+                                        text-align: left;
+                                    }
+
+                            .stroke_3 .block_stroke_1 {
+                                display: flex;
+
+                            }
+                                .stroke_3 .table {
+                                    margin-top: 18px;
+
+                                    overflow: auto;
+                                    width: 100%;
+                                    height: auto;
+                                    border-collapse: collapse; /*убрать двойные линии между ячейками*/
+
+                                    text-align: center;
+                                }
+                                    .stroke_3 .table th {
+                                        background: #F5F4F0;
+                                        height: 47px;
+
+                                        text-transform: capitalize;
+                                        color: #585858;
+                                        text-shadow: 1px 1px #fff;
+                                        font: 15px "Fira Sans Condensed";
+                                        font-weight: 700;
+                                        
+                                    }
+                                    .stroke_3 .table td {
+                                        background: transparent;
+                                        height: 51px;
+
+                                        border-top: 1px solid #f5f4f0;
+                                        color: #505050;
+                                        font: 14px "Ubuntu", sans-serif;
+                                        font-weight: 400;
+                                        letter-spacing: 0.5px;  
+                                    }
+                                        .img_ps_system {
+                                            width: 80px;
+                                            height: 20px;
+                                        }
+
+                                    .stroke_3 .table tr {
+                                        padding: 5px 15px 5px 15px;
+                                        border-bottom: 1px solid #e2e2e2;
+                                    }
+                                    .stroke_3 .table tr:first-child, .stroke_3 .table tr:last-child {
+                                        border-bottom: none;
+                                    }  

@@ -1,0 +1,157 @@
+@import url(/auth/style/style.css);
+/*-------------dailybonus-------------------------VVVVVVVVVVVVVV------------------------------*/
+
+.box_strokeafter_2_center_panel {
+	display: block;
+	width: 75vw;
+	margin-left: 2.73vw;
+	margin-top: 30px;
+}
+	.box_1_center_panel {
+		display: block;
+		margin-left: 15px;
+	}
+
+/*-------------------создание прочного ряда блоков без переноса на следующую строку--------VVVVVVVVVVVVVVVVVVVV----*/
+		.nav_element_1_stroke_3_box_1_center_panel {
+			display: inline-block;
+			width: 73.43vw;
+		}
+			.ul_element_1_stroke_3_box_1_center_panel {
+				margin-top: 0;
+			}
+				.ul_element_1_stroke_3_box_1_center_panel li {
+					float: left;
+					margin-bottom: 20px;
+					margin-right: 1.46vw;
+				}
+				.ul_element_1_stroke_3_box_1_center_panel li:last-child {
+					margin-right: 0;
+				}
+					.div_element_1_stroke_3_box_1_center_panel {
+						display: block;
+						width: 35.87vw;
+						height: 540px;
+						background: #fff;
+						-webkit-border-radius: 4px;		/*для других браузеров*/
+						-moz-border-radius: 4px;			
+						border-radius: 4px;
+						box-shadow: 0px 1px 1px #575757;
+					}
+						.text1_e1s3b1cp {
+							padding-top: 30px;
+
+							font: 28px "Roboto";
+							color: #000;
+							font-weight: 900;
+							text-transform: normal;
+							letter-spacing: 0.100em;
+
+							text-align: center;
+						}
+						.image_e1s3b1cp {
+							display: block;
+							margin-left: auto;
+							margin-right: auto;
+							margin-top: 40px;
+						}
+						.text2_e1s3b1cp {
+							display: block;
+							width: 29.06vw;
+							height: 116px;
+							margin-left: auto;
+							margin-right: auto;
+							margin-top: 40px;
+						}
+							.line_text2_e1s3b1cp {
+								display: block;
+								position: absolute;
+								width: 5px;
+								height: 110px;
+								background: #EFEFEF;
+								margin-left: 0;
+							}
+							.text_text2_e1s3b1cp {
+								display: block;
+								margin-left: 20px;
+								padding-top: 10px;
+								margin-bottom: 20px;
+
+								font: 14px "Roboto";
+								letter-spacing: 0.050em;
+								color: #000;
+								font-weight: 400;
+								text-transform: normal;
+								/*text-align: justify;
+								word-spacing: 0.9em; надо как-то выровнят по ширине (придется вручную)*/ 
+								line-height: 27px;
+							}
+								.text_text2_e1s3b1cp span, .text_text2_e1s3b1cp a, .text_text2_e1s3b1cp a:visited {
+									padding-top: 10px;
+
+									font: 12px "Fira Sans Condensed";
+									color: #AFAFAF;
+									font-weight: 400;
+									text-transform: normal;
+									letter-spacing: 0.110em;
+									line-height: 27px;										
+								}
+
+							input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { /*убирает стрелки на поле*/
+							    -webkit-appearance: none;
+							}
+							.input_exchangemoney {
+								display: block;
+								width: 24.38vw;
+								height: 40px;
+								margin-left: auto;
+								margin-right: auto;
+								-webkit-border-radius: 4px;		/*для других браузеров*/
+								-moz-border-radius: 4px;
+								border: 1px solid #d1d1d1;
+								border-radius: 4px;
+								margin-bottom: 8px;
+						
+								color: #969696;
+								background: #fff;
+								text-align: center;
+							}
+							.button_text2_e1s3b1cp {
+								display: block;
+								width: 24.38vw;
+								height: 40px;
+								margin-left: auto;
+								margin-right: auto;
+								-webkit-border-radius: 4px;		/*для других браузеров*/
+								-moz-border-radius: 4px;
+								border-radius: 4px;
+								margin-bottom: 8px;
+
+								
+								margin-top: 5px;
+
+								background: #FF9000;
+								border: none;
+								cursor: pointer;
+								
+								color: #fff;
+								font: 14px "Roboto";
+								font-weight: 900;
+								letter-spacing: 0;
+								text-align: center;
+							}
+@media screen and (max-device-width: 1240px) {
+	  .wrapper {
+        min-height: 122vh;
+    }
+	.div_element_1_stroke_3_box_1_center_panel {
+		height: 620px;
+	}
+	.nav_element_1_stroke_3_box_1_center_panel {
+		width: 90vw;
+	}
+	.ul_element_1_stroke_3_box_1_center_panel li {
+		margin-right: 6vw;
+	}
+}
+/*-------------------создание прочного ряда блоков без переноса на следующую строку--------AAAAAAAAAAAAAAAAAAA----*/

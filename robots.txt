@@ -1,0 +1,7 @@
+﻿User-agent: Yandex
+
+Disallow: /all/admin/
+
+Allow: /auth/dailybonus.php
+Allow: /auth/games.php
+Allow: /auth/schulte_tab_start.php

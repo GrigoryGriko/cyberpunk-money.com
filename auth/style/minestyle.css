@@ -1,0 +1,642 @@
+@import url(/auth/style/style.css);
+/*-------------MY_FIELD-------------------------VVVVVVVVVVVVVV------------------------------*/
+
+.stroke_2_center_panel {
+	background: #FFF;
+}
+.stroke_1_center_panel {
+	background: #FBFBFB;
+	border-top: 1px solid #E6ECED;
+	border-bottom: 1px solid #E6ECED; 
+}
+/*{--*/
+.boxgradient_strokebefore_1_center_panel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 73.16vw;
+	height: 80px;
+	margin-left: 2.73vw;
+	margin-top: 30px;
+
+	background: linear-gradient(45deg, #72d9ff, #ba78ff);
+	-webkit-border-radius: 4px;		/*для других браузеров*/
+	-moz-border-radius: 4px;			
+	border-radius: 4px;
+
+	box-shadow: 0px 1px 2px #c4c4c4;
+}
+	.text_boxgradient_sb1cp {
+		color: #fff;
+		font: 16px "Roboto";
+		font-weight: 700;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.58);
+	}
+.box_strokeafter_1_center_panel {
+	display: block;
+	width: 75vw;
+	margin-left: 2.73vw;
+	margin-top: 20px;
+}
+	.box_1_center_panel {
+		display: block;
+		float: left;
+		margin-right: 0.85vw;
+	}
+		.element_2_stroke_3_box_1_center_panel, .element_2_stroke_4_box_1_center_panel, .element_2_stroke_5_box_1_center_panel, .element_2_stroke_6_box_1_center_panel {
+			display: block;
+			width: 23.44vw;
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+	
+			margin-bottom: 22px;
+
+			text-align: center;
+		}
+			.stroketext_1-e2s3b2cp {
+				font: 18px "Roboto";		
+				color: #000;
+				font-weight: 400;
+				letter-spacing: 0;
+			}
+			.strokeimage-e2s3b2cp {
+				display: block;
+				width: 100px;
+				height: 110px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		.element_2_stroke_3_box_1_center_panel {
+			padding: 15px 0 15px 0;
+		}		
+			.elementtext_into_td_tabletext_2-e2s3b2cp {
+				display: block;
+				padding: 17px 0 17px 0;
+
+				font: 14px "Roboto";		
+				color: #7c7c7c;
+				font-weight: 500;
+				letter-spacing: 0;
+				text-transform: uppercase;
+			}
+			.elementimage_into_td_tabletext_2-e2s3b2cp {
+				height: 190px;
+				padding: 17px 0 0 0;
+				
+			}
+			.tabletext_2-e2s3b2cp {
+				display: block;
+				border-radius: 4px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border: 1px solid #e2e2e2;
+				width: 21.5vw;
+				margin-left: auto;
+				margin-right: auto;
+				border-collapse: collapse; /*убрать двойные линии между ячейками*/
+			}
+			.tabletext_2-e2s3b2cp td {
+				width: calc(21.51vw - 30px);
+				height: 48px;	/*вертикальное выравнивание*/
+				line-height: 14px;		/*вертикальное выравнивание*/
+				border-bottom: 1px solid #e2e2e2;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.tabletext_2-e2s3b2cp tr:first-child td:first-child {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				/*width: 18.58vw;*/
+				min-height: 230px;
+			}
+			.tabletext_2-e2s3b2cp td:last-child {
+				border-right: none;
+			}
+			.tabletext_2-e2s3b2cp tr:last-child td{
+				border-bottom: none;
+			}
+				.text1_table_element_1_stroke_4_box_1_center_panel {
+					display: inline-block;		/*вертикальное выравнивание*/
+					line-height: normal;		/*вертикальное выравнивание*/
+					height: 14px;				/*вертикальное выравнивание*/ 
+					vertical-align: middle;		/*вертикальное выравнивание*/
+
+					float: left;
+					font: 14px "Roboto";		
+					color: #7c7c7c;
+					font-weight: 400;
+					letter-spacing: 0;
+					line-height: 22px;		/*зависит от height и padding text2_table_...*/
+					text-transform: normal;
+					margin-left: 1px;
+
+				}
+				.text2_table_element_1_stroke_4_box_1_center_panel {
+					display: inline-block;		/*вертикальное выравнивание*/
+					line-height: normal;		/*вертикальное выравнивание*/
+					height: 14px;				/*вертикальное выравнивание*/ 
+					vertical-align: middle;		/*вертикальное выравнивание*/
+					background: #1699db;
+					-webkit-border-radius: 2px;		/*для других браузеров*/
+					-moz-border-radius: 2px;					
+					border-radius: 2px;
+					float: right;
+					padding: 4px 6px 4px 6px;
+
+					font: 14px "Fira Sans Condensed";		
+					color: #fff;
+					font-weight: 400;
+					letter-spacing: 0.050em;
+					line-height: 14px;
+					text-transform: normal;
+					text-align: center;
+
+				}
+				.col_1_table_e1s4b2cp {
+					display: inline-block;		/*вертикальное выравнивание*/
+					height: 27px;				/*вертикальное выравнивание*/ 
+					vertical-align: middle;		/*вертикальное выравнивание*/
+					text-align: center;
+					line-height: 27px;
+
+					color: #fff;
+
+					width: 27px;
+					background: #757475;
+					-webkit-border-radius: 50%;		/*для других браузеров*/
+					-moz-border-radius: 50%;
+					-o-border-radius: 50%;
+					-ms-border-radius: 50%;					
+					border-radius: 50%; 
+				}
+
+
+
+
+				.elemtext_1-st2e2s3b2cp, .elemtext_1-st3e2s3b2cp, .elemtext_1-st4e2s3b2cp {
+					display: inline-block;		/*вертикальное выравнивание*/
+					line-height: normal;		/*вертикальное выравнивание*/
+					height: 14px;				/*вертикальное выравнивание*/ 
+					vertical-align: middle;		/*вертикальное выравнивание*/
+
+					font: 14px "Roboto";		
+					color: #000;
+					font-weight: 400;
+					letter-spacing: 0;
+					line-height: 18px;		/*зависит от height и padding text2_table_...*/
+					text-transform: normal;
+				}
+				.elemtext_2-st2e2s3b2cp, .elemtext_2-st3e2s3b2cp, .elemtext_2-st4e2s3b2cp {
+					display: inline-block;		/*вертикальное выравнивание*/
+					line-height: normal;		/*вертикальное выравнивание*/
+					height: 18px;				/*вертикальное выравнивание*/ 
+					vertical-align: middle;		/*вертикальное выравнивание*/
+					float: right;
+
+					font: 16px "Fira Sans Condensed";		
+					color: #000;
+					font-weight: 400;
+					letter-spacing: 0.050em;
+					line-height: 22px;
+					text-transform: normal;
+					text-align: center;
+				}
+					.elemtext_2-st2e2s3b2cp span, .elemtext_2-st3e2s3b2cp span, .elemtext_2-st4e2s3b2cp span{
+						font: 12px "Fira Sans Condensed";
+					}
+			.button_mineybuy-e2s6b2cp {
+				width: 20.24vw;
+				height: 40px;
+				background: transparent;
+				border: 1px solid #606060;
+				-webkit-border-radius: 4px;		/*для других браузеров*/
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				cursor: pointer;
+
+				font: 13px "Roboto";		
+				color: #606060;
+				font-weight: 400;
+				letter-spacing: 0.050em;
+				line-height: 0px;
+				text-transform: uppercase;
+				text-align: center;
+
+				-webkit-transition: background 0.3s ease, color 0.3s ease;
+				-moz-transition: background 0.3s ease, color 0.3s ease;
+				-o-transition: background 0.3s ease, color 0.3s ease;
+				-ms-transition: background 0.3s ease, color 0.3s ease;
+				transition: background 0.3s ease, color 0.3s ease; /*плавное изменение свойств*/
+			}
+			.button_mineybuy-e2s6b2cp:hover {
+				background: #606060;
+				color: #fff;
+			}
+
+	.box_2_center_panel {
+		display: block;
+		float: left;
+		margin-right: 0;
+	}
+		.element_1_stroke_3_box_2_center_panel {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 48.83vw;
+			padding: 20px 0 20px 0;
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+
+		}
+			.box_contain_e1s3b2cp {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 95%;
+			}
+				.text1_element_1_stroke_3_box_2_center_panel, .text1_element_1_stroke_4_box_2_center_panel {
+					
+
+					font: 16px "Roboto";		
+					color: #383838;
+					font-weight: 700;
+					letter-spacing: 0.050em;
+					line-height: 14px;		/*зависит от height и padding text2_table_...*/
+					margin-left: 1px;
+				}
+
+				.text2_element_1_stroke_3_box_2_center_panel, .text2_element_1_stroke_4_box_2_center_panel {
+
+					border: 1px solid #dcdcdc;
+					background: #eaeaea;
+					-webkit-border-radius: 2px;		/*для других браузеров*/
+					-moz-border-radius: 2px;
+					-o-border-radius: 2px;
+					-ms-border-radius: 2px;					
+					border-radius: 2px;
+					padding: 4px 6px 4px 6px;
+
+					font: 14px "Fira Sans Condensed";		
+					color: #383838;
+
+
+					font-weight: 700;
+					letter-spacing: 0.050em;
+					line-height: 14px;
+					text-transform: normal;
+					text-align: center;
+
+					margin-left: 5px;
+
+				}
+
+				.flexbox_stretch {
+					flex-grow: 1;
+				}
+
+				.button_1_element_1_stroke_4_box_2_center_panel, .button_1_element_1_stroke_4_box_2_center_panel {
+					position: relative;
+					width: 13.5vw;
+					height: 40px;
+					-webkit-border-radius: 4px;		/*для других браузеров*/
+					-moz-border-radius: 4px;
+					border-radius: 4px;
+					border: 1px solid #4bcc22;
+
+					float: right;
+					text-align: center;
+
+					background: transparent;
+					cursor: pointer;
+					
+					color: #4bcc22;
+					font: 14px "Roboto";
+					font-weight: 900;
+					letter-spacing: 0;
+					text-transform: uppercase;
+
+					-o-transition: background 0.3s ease, color 0.3s ease;
+					-moz-transition: background 0.3s ease, color 0.3s ease;
+					-webkit-transition: background 0.3s ease, color 0.3s ease;
+					-ms-transition: background 0.3s ease, color 0.3s ease;
+					transition: background 0.3s ease, color 0.3s ease;
+				}
+				.button_1_element_1_stroke_4_box_2_center_panel:hover, .button_1_element_1_stroke_4_box_2_center_panel:hover {
+					background: #4bcc22;
+					color: #fff;	
+				}
+					.square_left_img {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 40px;
+						height: 100%;
+						border-right: 1px solid #4bcc22;
+					}
+						
+						.img_button_1e1s4b2cp {
+							float: left;
+						}
+
+					.button_1_element_1_stroke_4_box_2_center_panel p, .button_1_element_1_stroke_4_box_2_center_panel p {
+						width: calc(13.5vw - 40px);
+						height: 100%;
+						position: absolute;
+						top: 0;
+						right: 0;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+
+		.element_1_stroke_4_box_2_center_panel {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 48.83vw;
+			padding: 20px 0 20px 0;
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+
+			margin-top: 10px;
+		}
+/*-----------VVVVVVVVVVVVVVVVVVVVVVVV------Сложная Таблица с ячеками---------------------------*/	
+			.table_element_1_stroke_4_box_2_center_panel {
+				display: block;
+				border-radius: 4px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border: 1px solid #e2e2e2;
+				max-width: 45.5vw;
+				margin-left: auto;
+				margin-right: auto;
+				border-collapse: collapse; /*убрать двойные линии между ячейками*/
+
+				text-align: center;
+
+			}
+			.table_element_1_stroke_4_box_2_center_panel td {
+				width: 15vw;
+				height: 40px;	/*вертикальное выравнивание*/
+				line-height: 14px;		/*вертикальное выравнивание*/
+				border-bottom: 1px solid #e2e2e2;
+				border-right: 1px solid #e2e2e2;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.table_element_1_stroke_4_box_2_center_panel th {
+				padding: 0px 0px 0px 0px;
+								/*вертикальное выравнивание*/
+				line-height: 14px;		/*вертикальное выравнивание*/
+				border-bottom: 1px solid #e2e2e2;
+				border-right: 1px solid #e2e2e2;
+				padding-left: 15px;
+				padding-right: 15px;
+
+				background: #e4f7f9;
+			}
+			.th_1 {
+				height: 45px;
+
+				font: 15px "Roboto";
+	            color: #1699da;
+	            font-weight: 900;
+	            letter-spacing: 0.075em;
+	            text-transform: uppercase;
+			}
+				.image_text_into_td {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					line-height: 18px;
+				}
+					.th_1_img {
+						display: block;
+						margin-right: 5px;
+					}
+			.th_2 {
+				height: 38px;
+
+				font: 12px "Roboto";
+	            color: #1699da;
+	            font-weight: 400;
+	            letter-spacing: 0.075em;
+			}
+				.th_2 a, .th_2 a:visited {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					
+					color: #1699da;
+				}
+				.th_2 a:hover {
+					color: #da166f;
+				}
+
+				.image_i {
+					display: block;
+					margin-right: 5px;
+				}
+
+			.table_element_1_stroke_4_box_2_center_panel th:last-child {
+				border-right: none;
+			}
+			.table_element_1_stroke_4_box_2_center_panel tr:last-child th {
+				border-bottom: none;
+			}
+
+			#tr_fill {
+				background: #f6feff;
+				font-weight: 600;
+                font-style: italic;
+			}
+			.contain_data {
+				font: 15px "Roboto";
+                color: #383838;
+                font-weight: 400;
+                letter-spacing: 0.015em;
+                line-height: 25px;
+			}
+
+
+			.table_element_1_stroke_4_box_2_center_panel td:last-child {
+				border-right: none;
+			}
+			.table_element_1_stroke_4_box_2_center_panel tr:last-child td{
+				border-bottom: none;
+			}
+/*-----------AAAAAAAAAAAAAAAAAAAAAAAAAAA------Сложная Таблица с ячеками--------------------------*/
+		.element_1_stroke_5_box_2_center_panel {
+			display: block;
+			width: 48.83vw;
+			height: 475px;
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+
+			margin-top: 10px;
+			padding-top: 20px;
+		}
+		.element_1_stroke_6_box_2_center_panel {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 48.83vw;
+			background: #fff;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;
+			-o-border-radius: 4px;
+			-ms-border-radius: 4px;	
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+
+			margin-top: 10px;
+		}
+			.box_img_text_e1s6b2cp {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 95%;
+				padding: 20px 0 20px 0;
+			}
+				.element_1_stroke_6_box_2_center_panel img {
+					display: block;
+					width: 100px;
+					height: auto;
+					margin-right: 23px;
+				}
+				.element_1_stroke_6_box_2_center_panel p {
+					font: 16px "Fira Sans Condensed";
+				    color: #383838;
+				    font-weight: 400;
+				    letter-spacing: 0.025em;
+				    line-height: 25px;
+				}
+		.nav_element_1_stroke_6_box_2_center_panel	{
+			display: inline-block;
+			width: 49.22vw;
+
+			margin-top: 10px;
+
+		}
+			#ul_ajax-element_1_stroke_6_box_2_center_panel	{
+				margin-top: 0;
+			}			
+				#ul_ajax-element_1_stroke_6_box_2_center_panel li {				
+					float: left;
+					margin-right: 1.9vw; /*vw, vh - единицы измерения в зависимости от высоты и ширины экрана*/
+					margin-bottom: 20px;
+				}
+				#ul_ajax-element_1_stroke_6_box_2_center_panel li:nth-child(3n) {
+					margin-right: 0; /*vw, vh - единицы измерения в зависимости от высоты и ширины экрана*/
+				}
+					.fromsql_element-e1s6b1cp {
+						display: block;	
+						width: 15.01vw;
+						height: 330px;
+						background: #fff;
+						-webkit-border-radius: 4px;		/*для других браузеров*/
+						-moz-border-radius: 4px;
+						border-radius: 4px;
+						box-shadow: 0px 1px 2px #c4c4c4;
+				
+						margin-bottom: 22px;
+
+						text-align: center;
+					}
+						.fromsql_stroketext_1-e1s6b1cp p {
+							font: 14px "Roboto";		
+							color: #000;
+							font-weight: 400;
+							letter-spacing: 0;
+							line-height: 18px;
+							text-transform: uppercase;
+						}
+							.fromsql_stroketext_1-e1s6b1cp span {
+							text-transform: capitalize;
+							}
+/*Купленные рудники рудник магматический уровень 1-------VVVVVVVVVVVVVVVVVV------*/
+						.fromsql_stroketext_2-e1s6b1cp, .fromsql_stroketext_3-e1s6b1cp, .fromsql_stroketext_4-e1s6b1cp {
+							width: 13.5vw;
+							height: 40px;
+							-webkit-border-radius: 4px;		/*для других браузеров*/
+							-moz-border-radius: 4px;
+							border-radius: 4px;
+							margin-bottom: 8px;
+
+							text-align: center;
+						}	
+						.fromsql_stroketext_2-e1s6b1cp {
+							background: #FFEDB1;
+							border: none;
+
+							font: 14px "Roboto";
+							color: #D28F45;
+							font-weight: 900;
+							letter-spacing: 0;
+						}
+						.fromsql_stroketext_3-e1s6b1cp {			
+							background: #FF976C;
+							border: none;
+							cursor: pointer;
+
+							color: #fff;
+							font: 14px "Roboto";
+							font-weight: 900;
+							letter-spacing: 0;
+						}
+						.fromsql_stroketext_4-e1s6b1cp {						
+							background: #3F84CC;
+							border: none;
+							cursor: pointer;
+							
+							color: #fff;
+							font: 14px "Roboto";
+							font-weight: 900;
+							letter-spacing: 0;
+						}
+
+		.button_stroke_7_box_2_center_panel	{
+			display: block;
+			width: 200px;
+			height: 35px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+		}			
+
+@media screen and (max-device-width: 1240px) {
+	.text1_element_1_stroke_3_box_2_center_panel, .text1_element_1_stroke_4_box_2_center_panel {
+		width: 45%;
+	}
+}
+/*-------------MY_FIELD-------------------------AAAAAAAAAAAAAAA------------------------------*/
+/*-------------ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ----------VVVVVVVVVVVVVV-------
+.outer {
+    height: 200px;
+    line-height: 200px;
+    background-color: #ffc;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fcc;
+}		
+-------------ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ----------AAAAAAAAAAAAAAAA-------*/

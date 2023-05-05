@@ -1,0 +1,504 @@
+@import url(/auth/style/style.css);
+/*-------------MY_CABINET-------------------------VVVVVVVVVVVVVV------------------------------*/
+
+.stroke_1_center_panel {
+	background: #FFF;
+}
+.stroke_2_center_panel {
+	background: #FBFBFB;
+	border-top: 1px solid #E6ECED;
+	border-bottom: 1px solid #E6ECED; 
+}
+/*{--*/
+.box_strokeafter_2_center_panel {
+	display: block;
+	width: 75vw;
+	margin-left: 2.73vw;
+	margin-top: 30px;
+}
+	/*{--*/
+	.box_1_center_panel {
+		display: block;
+		float: left;
+		margin-right: 1.17vw;
+	}
+		/*{--*/
+		.nav_stroke_3_box_1_center_panel {
+			display: block;
+			width: 49.22vw;
+		}
+			/*{--*/
+			.ul_elementgradient_1_stroke_3_box_1_center_panel {
+				margin-top: 0;
+			}
+				.ul_elementgradient_1_stroke_3_box_1_center_panel li {
+					float: left;
+					margin-right: 1.7vw; /*vw, vh - единицы измерения в зависимости от высоты и ширины экрана*/
+				}
+				.ul_elementgradient_1_stroke_3_box_1_center_panel li:last-child {
+					margin-right: 0;
+				}
+					.elementgradient_1_stroke_3_box_1_center_panel, .elementgradient_2_stroke_3_box_1_center_panel, .elementgradient_3_stroke_3_box_1_center_panel {
+						display: flex;
+						position: relative;
+						flex-flow: column wrap;
+						align-items: center; /*вертикальное выравнивание flex*/
+						justify-content: center; /*горизонтальное выравнивание*/
+
+						width: 15.1vw;
+						height: 110px;
+						-webkit-border-radius: 4px;		/*для других браузеров*/
+						-moz-border-radius: 4px;						
+						border-radius: 4px;
+						box-shadow: 0px 1px 2px #c4c4c4;
+					}
+						.text-1-elementgradient_1_stroke_3_box_1_center_panel, .text-1-elementgradient_2_stroke_3_box_1_center_panel, .text-1-elementgradient_3_stroke_3_box_1_center_panel {
+							font: 12px "Roboto";		
+							color: #fff;
+							font-weight: 400;
+							letter-spacing: 0.100em;
+							line-height: 14px;
+							text-transform: uppercase;
+							text-align: center;
+							opacity: 0.6;						
+						}					
+						.text-2-elementgradient_1_stroke_3_box_1_center_panel, .text-2-elementgradient_2_stroke_3_box_1_center_panel, .text-2-elementgradient_3_stroke_3_box_1_center_panel {
+							margin-top: 10px;
+							font: 22px "Roboto";		
+							color: #fff;
+							font-weight: 500;
+							letter-spacing: 0.100em;
+							line-height: 14px;
+							text-transform: uppercase;
+						}	
+							.text-2-elementgradient_1_stroke_3_box_1_center_panel span, .text-2-elementgradient_2_stroke_3_box_1_center_panel span, .text-2-elementgradient_3_stroke_3_box_1_center_panel span {
+								font: 16px "Roboto";		
+								color: #fff;
+								font-weight: 400;
+								letter-spacing: 0.100em;
+								line-height: 14px;
+								text-transform: none;
+							}
+						.text-3-elementgradient_1_stroke_3_box_1_center_panel {
+							    position: absolute;
+							    width: 15.1vw;
+							    height: 16px;
+							    bottom: 0px;
+							    padding-top: 2px;
+
+							    -webkit-border-radius: 0px 0px 4px 4px;
+							    -o-border-radius: 0px 0px 4px 4px;
+							    -moz-border-radius: 0px 0px 4px 4px;
+							    -ms-border-radius: 0px 0px 4px 4px;
+							    border-radius: 0px 0px 4px 4px;
+
+							    text-align: center;
+							    font: 12px "Roboto";
+							    font-weight: 400;
+							    letter-spacing: 0.025em;
+							    background: rgba(0, 0, 0, 0.05);
+						}
+							.text-3-elementgradient_1_stroke_3_box_1_center_panel a {
+								-webkit-transition: color 0.3s ease;
+							    -o-transition: color 0.3s ease;
+							    -moz-transition: color 0.3s ease;
+							    -ms-transition: color 0.3s ease;
+							    transition: color 0.3s ease;
+
+								color: rgba(255, 255, 255, 0.45);	
+							}
+							.text-3-elementgradient_1_stroke_3_box_1_center_panel a:visited {
+								color: rgba(255, 255, 255, 0.45);	
+							}
+							.text-3-elementgradient_1_stroke_3_box_1_center_panel a:hover {
+								color: #fff;	
+							}
+						
+
+					.elementgradient_1_stroke_3_box_1_center_panel {
+						background: linear-gradient(45deg, #4ed3e6, #686be8);
+					}
+					.elementgradient_2_stroke_3_box_1_center_panel {
+						background: linear-gradient(45deg, #fb5858, #ffd55b);
+					}
+					.elementgradient_3_stroke_3_box_1_center_panel {
+						background: linear-gradient(45deg, #44cb4d, #60c5ec);
+					}
+			/*}--*/
+		/*}--*/
+		/*{--*/
+		.container_datatable {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: space-between;
+			width: calc(100% - 10px);
+		}
+		.container_datatable_part1 {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+		}
+		.container_datatable_part2 {
+			margin-top: 15px;
+		}
+			.decript {
+				margin-top: 23px;
+			   
+			    color: #515151;
+			    font: 16px "Roboto";
+			    letter-spacing: 0.065em;
+			    font-weight: 900;
+			    text-transform: uppercase;
+			}
+			.native_banner {
+				width: 850px;
+				height: auto;
+				padding-left: 8px;
+				padding-right: 8px;
+
+				background: #fff;
+			    -webkit-border-radius: 4px;
+			    -moz-border-radius: 4px;
+			    border-radius: 4px;
+			    box-shadow: 0px 1px 2px #c4c4c4;
+			}
+
+			.element_1_stroke_4_box_1_center_panel, .element_2_stroke_4_box_1_center_panel {
+				display: flex;
+				flex-flow: column wrap;
+				justify-content: center;
+				position: relative;
+				/*float: left;*/
+				width: 23.52vw;
+				height: 516px;
+				/*margin-right: 1.7vw;*/
+				margin-top: 22px;
+				background: #fff;
+				-webkit-border-radius: 4px;		/*для других браузеров*/
+				-moz-border-radius: 4px;			
+				border-radius: 4px;
+				box-shadow: 0px 1px 2px #c4c4c4;
+
+			}
+			.element_2_stroke_4_box_1_center_panel {
+				margin-right: 0;
+			}
+				.titletext_e1s4b1cp, .titletext_e2s4b1cp {
+					position: absolute;
+					top: 40px;
+					left: 30px;
+
+					color: #383838;
+					font: 16px "Roboto";
+					font-weight: 900;
+					letter-spacing: 0.5px;
+					text-transform: uppercase;
+				}
+				.table_element_1_stroke_4_box_1_center_panel, .table_element_2_stroke_4_box_1_center_panel {
+					display: block;
+					border-radius: 4px;
+					-webkit-border-radius: 4px;
+					-moz-border-radius: 4px;
+					border: 1px solid #e2e2e2;
+					width: 20.24vw;
+					margin-left: auto;
+					margin-right: auto;
+					border-collapse: collapse; /*убрать двойные линии между ячейками*/
+				}
+				.table_element_1_stroke_4_box_1_center_panel td, .table_element_2_stroke_4_box_1_center_panel td {
+					width: 20.31vw;
+					height: 48px;	/*вертикальное выравнивание*/
+					line-height: 14px;		/*вертикальное выравнивание*/
+					border-bottom: 1px solid #e2e2e2;
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				.table_element_1_stroke_4_box_1_center_panel tr:last-child td, .table_element_2_stroke_4_box_1_center_panel tr:last-child td{
+					border-bottom: none;
+				}
+					.text1_table_element_1_stroke_4_box_1_center_panel {
+						display: inline-block;		/*вертикальное выравнивание*/
+						line-height: normal;		/*вертикальное выравнивание*/
+						height: 14px;				/*вертикальное выравнивание*/ 
+						vertical-align: middle;		/*вертикальное выравнивание*/
+
+						font: 14px "Roboto";		
+						color: #7c7c7c;
+						font-weight: 400;
+						letter-spacing: 0;
+						line-height: 22px;		/*зависит от height и padding text2_table_...*/
+						text-transform: normal;
+
+					}
+					.text2_table_element_1_stroke_4_box_1_center_panel {
+						display: inline-block;		/*вертикальное выравнивание*/
+						line-height: normal;		/*вертикальное выравнивание*/
+						height: 14px;				/*вертикальное выравнивание*/ 
+						vertical-align: middle;		/*вертикальное выравнивание*/
+						background: #5a81cc;
+						-webkit-border-radius: 2px;		/*для других браузеров*/
+						-moz-border-radius: 2px;					
+						border-radius: 2px;
+						float: right;
+						padding: 4px 6px 4px 6px;
+
+						font: 14px "Fira Sans Condensed";		
+						color: #fff;
+						font-weight: 400;
+						letter-spacing: 0.050em;
+						line-height: 14px;
+						text-transform: normal;
+						text-align: center;
+
+					}
+
+				.button_after_tab {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 20.24vw;
+					height: 40px;
+
+					margin-left: auto;
+					margin-right: auto;
+
+					margin-top: 25px;
+
+					background: transparent;
+					cursor: pointer;
+					border: 1px solid #e2e2e2;
+					color: #515151;
+					font: 14px "Roboto";
+					letter-spacing: 0.065em;
+					font-weight: 900;
+					text-transform: uppercase;
+
+					border-radius: 3px; /*закругление углов (общее)*/
+					-webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+					-moz-border-radius: 3px; /*закругление углов (FireFox)*/
+					-o-border-radius: 3px; /*закругление углов (Safari)*/
+					-ms-border-radius: 3px; /*закругление углов (Explorer)*/
+
+					-webkit-transition: color 0.3s ease, background 0.3s ease;
+					-moz-transition: color 0.3s ease, background 0.3s ease;
+					-o-transition: color 0.3s ease, background 0.3s ease;
+					-ms-transition: color 0.3s ease, background 0.3s ease;
+					transition: color 0.3s ease, background 0.3s ease;
+				}
+				.button_after_tab:hover {
+					background: #515151;
+					color: #fff;
+				}
+					.icon_button {
+						margin-right: 7px;
+					}
+
+
+
+				
+					
+		/*}--*/
+	/*}--*/
+	/*{--*/
+	.box_2_center_panel {
+		display: block;
+		float: left;
+		margin-right: 0;
+	}
+		.elementgradient-z1-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: relative;
+			width: 23.44vw;
+			height: 183px;
+			-webkit-border-radius: 4px;		/*для других браузеров*/
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			box-shadow: 0px 1px 2px #c4c4c4;
+			background: linear-gradient(45deg, #ae77b6, #606cc4);
+			z-index: 1;		
+		}
+		.elementgradient_1-z2-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: absolute;
+			width: 23.44vw;
+			height: 89px;
+			-webkit-border-radius: 4px 4px 0 0;		/*для других браузеров*/
+			-moz-border-radius: 4px 4px 0 0;
+			border-radius: 4px 4px 0 0;
+			background: #fff;
+			opacity: 0.08;
+			z-index: 2; /*положение слоя*/
+		}
+		.centerer_textelementgradient_1 {
+			display: flex;
+			position: absolute;
+			width: 23.44vw;
+			height: 89px;
+			align-items: center;
+			justify-content: center;
+			flex-flow: column wrap;
+		}
+			.textelementgradient_1-z2-4_stroke_3_box_2_center_panel {
+				display: block;
+				position: absolute;
+				font: 12px "Roboto";		
+				color: #fff;
+				opacity: 1;
+				font-weight: 400;
+				letter-spacing: 0.100em;
+				line-height: 14px;
+				text-transform: uppercase;
+
+				z-index: 3;
+			}
+			.textelementgradient_1-z2-4_stroke_3_box_2_center_panel span{
+				opacity: 0.6;
+			}
+			.textelementgradient_1-z2-4_stroke_3_box_2_center_panel a, .textelementgradient_1-z2-4_stroke_3_box_2_center_panel a:visited {
+				color: #fff;
+			}
+
+		.box_elementgradient_2-z2-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: absolute;
+			margin-top: 100px;
+			z-index: 2;
+		}
+			.elementgradient_2-z2-4_stroke_3_box_2_center_panel {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				width: 21.5vw;
+				height: 40px;
+				-webkit-border-radius: 4px;		/*для других браузеров*/
+				-moz-border-radius: 4px;				
+				border-radius: 4px;
+				border: 1px solid rgba(255,255,255, 0.15);
+				background: rgba(255,255,255, 0.15);
+			}
+				.centerer_centerer {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					position: absolute;
+					top: -10px;
+					width: 23.44vw;
+					height: 93px;
+				}
+				.textelementgradient_2-z2-4_stroke_3_box_2_center_panel {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					
+					font: 14px "Roboto";		
+					color: #fff;
+					font-weight: 400;
+					letter-spacing: 0.100em;
+					text-transform: normal;
+
+					opacity: 0.7;
+				}
+
+
+		.diagramma_round_box_2_center_panel {
+			display: flex;
+			justify-content: center;
+
+			position: relative;
+			width: 23.44vw;
+			height: 340px;
+
+			margin-top: 50px;
+		}
+
+			h2 {
+				color: #383838;
+				font: 16px "Roboto";
+				font-weight: 900;
+				text-transform: uppercase;
+
+				text-align: center;
+			}
+			#graph {
+				display: block;
+				position: absolute;
+				top: 50px;
+			  width: 340px;
+			  height: 340px;
+			}
+			pre {
+			  height: 250px;
+			  overflow: auto;
+			}
+			
+			.morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#666;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
+			.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}		
+
+.linkslot {
+	margin-top: 40px;
+	margin-bottom: 20px;
+
+	font: 16px "Roboto";
+	font-weight: 900;
+}
+	.linkslot_banner {
+		margin-bottom: 15px;
+	}
+
+
+@media screen and (max-device-width: 1240px) {
+	.wrapper {
+		min-height: 122vh;
+	}
+	.box_strokeafter_2_center_panel {
+		width: 85vw;
+	}
+	.textelementgradient_1-z2-4_stroke_3_box_2_center_panel {
+		margin-left: 8px;
+	}
+
+	.container_datatable_part1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+		.element_1_stroke_4_box_1_center_panel, .element_2_stroke_4_box_1_center_panel {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			width: 100%;
+		}
+				.table_element_1_stroke_4_box_1_center_panel, .table_element_2_stroke_4_box_1_center_panel {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 90%;
+				}
+				.table_element_1_stroke_4_box_1_center_panel td, .table_element_2_stroke_4_box_1_center_panel td {
+					width: 39vw;
+					
+				}
+				.button_after_tab {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 35.24vw;
+				}
+
+	#graph {
+		display: block;
+		position: absolute;
+		top: 50px;
+		width: 260px;
+		height: 260px;
+	}
+
+	.native_banner {
+		width: 260px;
+	}
+}

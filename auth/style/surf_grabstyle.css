@@ -1,0 +1,166 @@
+@import url(/auth/style/style.css);
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.advertisingsite_container {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+
+}
+.button_captcha {
+    width: 13.18vw;
+    height: 40px;
+    background: #ffad16;
+    cursor: pointer;
+    border: 1px solid #CBA772;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+
+    margin-left: 13px;
+
+    color: #fff;
+    font: 14px "Roboto";
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -ms-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+.button_captcha:hover {
+    background: #FCBB41;
+}
+
+#footer {
+	display: flex;
+   
+    align-items: center;
+	position: fixed;
+	width: 100vw;
+	height: 110px;
+	bottom: 0;
+
+
+    background: linear-gradient(90deg, #35b7f3, #5e8dff);
+    box-shadow: -1px -3px 2px rgba(56, 173, 244, 0.30);
+
+}
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 47px;
+    background: #ffb221;
+    border-radius: 100px;
+    margin-left: 50px;
+    color: #fff;
+    font: 24px "Roboto";
+    font-weight: 900;
+    text-shadow: 2px 2px #6d3f0b;
+    border: 2px solid #bf7c1b;
+}
+    .type_captcha {
+        margin-top: 10px;
+        color: #000;
+    }
+        .box_captcha_image_12 {
+            display: flex;
+            width: 100vw;
+            height: 110px;
+            align-items: center; /*вертикальное выравнивание flex*/  
+        }
+            .box_c_i_12 {
+                display: flex;
+                width: 643px;
+                height: 100%;
+    
+                align-items: center;
+                background: #fff; 
+                border-right: 2px solid rgb(23, 151, 249);
+            }
+                .captcha_image_1, .captcha_image_2, .type_captcha {
+                    display: block;
+                    width: 280px;
+                    margin-right: 15px;                
+                }
+                input[type="number"] {
+                    width: 270px;
+                    height: 38px;
+                    
+                    margin-left: 90px;
+
+                    border: 1px solid #cccccc;
+                    border-radius: 3px; /*закругление углов (общее)*/
+                    -webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+                    -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+                    -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+
+                    background: #fff !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+                    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+
+                    font: 16px "Roboto";
+                    font-weight: 600;
+
+                    text-indent: 15px; /*ачальное положение курсора в поле input*/
+                    
+                }
+                .onfocus {
+                    color: #5DBBDE;
+
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    -ms-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+                }
+                .onblur {
+                    color: #000;
+
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    -ms-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+                }
+                .type_input {
+                    color: #000;
+                }
+                    .style_image--captcha {
+                        margin-left: 30px;
+
+                        border: 1px dashed #c6c6c6;
+                        border-radius: 4px; /*закругление углов (общее)*/
+                        -webkit-border-radius: 4px; /*/закругление углов (Google Chrome)*/
+                        -moz-border-radius: 4px; /*закругление углов (FireFox)*/
+                        -khtml-border-radius: 4px; /*закругление углов (Safari)*/
+                    }
+
+@media screen and (max-device-width: 1240px) {
+    #footer {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: 100%;
+        height: 300px;
+    }
+    .box_captcha_image_12 {
+        display: block;
+        margin-top: 30px;
+        width: none;
+    }
+    .box_c_i_12 {
+        margin-bottom: 50px;
+    }
+    iframe {
+        padding-bottom: 300px;
+    }
+}

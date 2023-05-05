@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700|Kanit|Open+Sans:300,400,500,600,700,900|Source+Sans+Pro:300,400,500,600,700,900|Fira+Sans+Condensed:300,400,500,700,900|Roboto:300,400,500,600,700,900);
+@font-face{
+font-family: 'AstakhovSkin';
+src: url('../fonts/AstakhovSkin'),
+url('../fonts/AstakhovSkin.otf') format('opentype');
+}
+@font-face{
+font-family: 'CrossTown';
+src: url('../fonts/CrossTown'),
+url('../fonts/CrossTown.ttf') format('truetype');
+}
+
+::selection {
+background: #B4FF00;
+}
+
+html {    
+
+}
+body {
+	
+}
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding:0;
+	outline: none;
+}
+
+a, a:hover {text-decoration: none;}
+
+.general_box {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+	.left_side {
+		display: flex;
+		flex-flow: column wrap;
+		width: 50vw;
+		min-height: 100vh;
+		background: linear-gradient(45deg, #962ec3, #ffe000);
+		border-right: 1px solid #BBB6CF;
+
+		align-items: center; /*вертикальное выравнивание flex*/
+		justify-content: center; /*горизонтальное выравнивание*/
+	}
+		.imgtext_stroke_1_left_side {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+			
+			min-width: 220px;
+		}
+
+		.text_stroke_2_left_side {
+            margin-top: 35px;
+            margin-bottom: 15px;
+			color: #fff;
+			font: 15px "Roboto";
+			font-weight: 400;
+            letter-spacing: 0.025em;
+		}
+		.button_login {
+			width: 9.18vw;
+			height: 40px;
+			background: #16b4ff;
+			cursor: pointer;
+			border: 1px solid #3597c1;
+			border-radius: 4px; /*закругление углов (общее)*/
+			-webkit-border-radius: 4px; /*/закругление углов (Google Chrome)*/
+			-moz-border-radius: 4px; /*закругление углов (FireFox)*/
+			-khtml-border-radius: 4px; /*закругление углов (Safari)*/
+
+			color: #fff;
+			font: 14px "Roboto";
+			font-weight: 500;
+			text-transform: uppercase;
+
+            -webkit-transition: background 0.3s ease;
+            -moz-transition: background 0.3s ease;
+            -moz-transition: background 0.3s ease;
+            -ms-transition: background 0.3s ease;
+            transition: background 0.3s ease;
+		}
+        .button_login:hover {
+            background: #2bb8fb;
+        }
+
+		.footer_left_side {
+			position: absolute;
+			bottom: 15px;
+
+			color: #fff;
+            opacity: 0.9;
+			font: 12px "Open Sans";
+			font-weight: 400;
+		}
+        .footer_left_side a {
+            color: #fff;
+        }
+        .footer_left_side a:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+        .footer_left_side a:visited {
+            color: #fff;
+        }
+
+	.right_side {
+		display: flex;
+		flex-flow: column wrap;
+		width: 50vw;
+		min-height: 100vh;
+		background: #fff;
+		align-items: center; /*вертикальное выравнивание flex*/
+		justify-content: center; /*горизонтальное выравнивание*/
+	}
+
+
+		.form_input {
+			display: flex;
+			position: relative;
+			flex-flow: column wrap;
+			width: 33vw;
+			height: 100vh;
+			
+			justify-content: center; /*горизонтальное выравнивание*/
+		}
+
+		.text_stroke_1_right_side {
+            width: 33vw;
+			position: absolute;
+			top: 8vh;
+
+			color: #474747;
+			font: 18px "Roboto";
+			font-weight: 600;
+			text-transform: uppercase;
+			text-align: center;
+		}
+        .header_half {/*
+            position: absolute;
+            top: 0;
+            width: 50vw;
+            height: 15.15vh;
+            background: #fff;*/
+        }
+        .line {
+           /* position: absolute;
+            top: 15.15vh;
+            width: 50vw;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.04);*/
+        }
+
+			input::-webkit-outer-spin-button,
+			input::-webkit-inner-spin-button {
+			    /* display: none; <- Crashes Chrome on hover */
+			    -webkit-appearance: none;
+			    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+			}
+			input[type="text"], input[type="password"], input[type="number"] {
+				width: 33vw;
+				height: 40px;
+				
+				border: 1px solid #cccccc;
+				border-radius: 3px; /*закругление углов (общее)*/
+				-webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+				-moz-border-radius: 3px; /*закругление углов (FireFox)*/
+				-khtml-border-radius: 3px; /*закругление углов (Safari)*/
+
+				background: #fff !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+				outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+
+				font: 15px "Roboto";
+                font-weight: 400;
+				
+			}
+			input[type="password"] {
+				width: 15vw;
+			}
+
+			input[type="number"] {
+				width: 280px;
+			}
+
+			input[type="checkbox"] {
+
+			}
+			.sub_type_input, .type_password span, .checkbox_text {
+				margin-top: 5px;
+				margin-bottom: 15px;
+				color: #474747;
+				font: 14px "Roboto";
+				font-weight: 700;
+			}
+            
+			.checkbox_text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+				margin-top: 30px;
+
+                white-space: nowrap;
+			}
+            #checkbox_1 {
+                min-width: 18px;
+                min-height: 18px;
+                margin-right: 10px;
+            }
+            input[type=text], input[type=number], input[type=password] {
+                text-indent: 10px;  /*Отступ первой строки текста*/
+            }
+
+			.onfocus {
+				color: #42adf4;
+
+                -o-transition: color 0.3s, ease;
+                -webkit-transition: color 0.3s, ease;
+                -moz-transition: color 0.3s, ease;
+                -ms-transition: color 0.3s, ease;
+                transition: color 0.3s, ease;
+			}
+			.onblur {
+				color: #000;
+
+                -webkit-transition: color 1.8s, ease;
+                -moz-transition: color 1.8s, ease;
+                -o-transition: color 1.8s, ease;
+                -ms-transition: color 1.8s, ease;
+                transition: color 1.8s, ease;
+			}
+			.type_input {
+				color: #000;
+			}
+			.flexbox_type_password {
+				display: flex;
+				justify-content: center;
+			}
+				.type_password {
+					color: #000;
+				}
+				.block_dynamyc_distance {
+					flex-grow: 1;
+				}
+					.type_password span {
+						display: block;
+					}
+			.type_captcha {
+				margin-top: 10px;
+				color: #000;
+			}
+
+			.captcha_image_1 {
+				margin-top: 10px;
+				margin-bottom: 5px;
+			}
+			.captcha_image_1, .captcha_image_2, .type_captcha {
+				display: block;
+				width: 280px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+				.style_image--captcha {
+					border: 1px dashed #c6c6c6;
+					border-radius: 4px; /*закругление углов (общее)*/
+					-webkit-border-radius: 4px; /*/закругление углов (Google Chrome)*/
+					-moz-border-radius: 4px; /*закругление углов (FireFox)*/
+					-khtml-border-radius: 4px; /*закругление углов (Safari)*/
+				}
+			.button_register {
+				width: 33.16vw;
+                height: 40px;
+                background: #fedf02;
+                border: 1px solid #dec304;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -khtml-border-radius: 3px;
+                color: #3a3a3a;
+                text-transform: uppercase;
+                font: 14px "Open Sans";
+                font-weight: 600;
+                cursor: pointer;
+
+				-moz-transition: background 0.3s ease, border 0.3s ease;
+				-o-transition: background 0.3s ease, border 0.3s ease;
+				-webkit-transition: background 0.3s ease, border 0.3s ease;
+				-ms-transition: background 0.3s ease, border 0.3s ease;
+				transition: background 0.3s ease, border 0.3s ease;
+			}
+			.button_register:hover {
+				background: #ffe94e;
+				border: 1px solid #efd72e;
+			}
+
+            .checkbox_text a, .checkbox_text a:visited {
+                color: #16b4ff;
+            }
+            .checkbox_text a:hover {
+                color: #bb34b8;
+            }
+
+@media screen and (max-width: 1385px) {
+    .button_login {
+        width: 127px;
+    }
+}
+@media screen and (max-height: 870px) {
+    .header_half {
+        display: none;
+    }    
+    .line {
+        display: none;
+    }
+}
+@media screen and (max-height: 730px) {
+    .text_stroke_1_right_side {
+        top: 4vh;
+        font: 16px "Roboto";
+        font-weight: 600;
+    }
+}
+@media screen and (max-height: 628px) {
+    .text_stroke_1_right_side {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 1240px) {
+    .checkbox_text {
+        display: block;
+        white-space: normal;
+    }
+}

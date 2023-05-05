@@ -1,0 +1,478 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700|Kanit|Open+Sans:300,400,500,600,700,900|Source+Sans+Pro:300,400,500,600,700,900|Fira+Sans+Condensed:300,400,500,700,900|Roboto:300,400,500,600,700,900);
+@font-face{
+font-family: 'AstakhovSkin';
+src: url('../fonts/AstakhovSkin'),
+url('../fonts/AstakhovSkin.otf') format('opentype');
+}
+@font-face{
+font-family: 'CrossTown';
+src: url('../fonts/CrossTown'),
+url('../fonts/CrossTown.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Ubuntu-B';
+src: url('../fonts/Ubuntu-B'),
+url('../fonts/Ubuntu-B.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Ubuntu-BI';
+src: url('../fonts/Ubuntu-BI'),
+url('../fonts/Ubuntu-BI.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Ubuntu-L';
+src: url('../fonts/Ubuntu-L'),
+url('../fonts/Ubuntu-L.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Ubuntu-:LI';
+src: url('../fonts/Ubuntu-LI'),
+url('../fonts/Ubuntu-LI.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Ubuntu-R';
+src: url('../fonts/Ubuntu-R'),
+url('../fonts/Ubuntu-R.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Ubuntu-:RI';
+src: url('../fonts/Ubuntu-RI'),
+url('../fonts/Ubuntu-RI.ttf') format('truetype');
+}
+
+::selection {
+background: #B4FF00;
+}
+
+.wrapper, body, html {    
+	height: 100%;
+}
+body {
+	font: 14px/18px 'Times New Roman', Times, sans-serif;
+	background: #F5F5F5 url(../img/home/background.png) repeat 0 0;
+}
+.wrapper {
+	display: flex;
+	margin: 0; /* Убираем отступы */
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding:0;
+	outline: none;
+}
+
+a, a:hover {text-decoration: none;}
+
+
+
+.left {float:left}
+.right {float:right;}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+	.header {
+		display: block;
+		width: 100%;
+		height: 80px;
+		background: #fff;
+		top: 0;
+		padding: 0;
+		border-bottom: 1px solid #E6ECED;
+	}	
+		/*{--*/
+		.left_panel {
+	    	display: inline-block;
+	    	float: left;
+			width: 260px;
+			height: 805px;
+			background: #60657c;
+		}
+			/*{--*/
+			.content_1_left_panel {
+				display: block;
+				width: 220px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 30px;
+			}
+				/*{--*/
+				.stroke_1_left_panel {
+					height: 60px;		/*вертикальное выравнивание*/
+		  			line-height: 60px; /*вертикальное выравнивание*/
+				}
+					.elementimage_1_stroke_1_left_panel {
+						float:left;
+						margin-right: 20px;
+					}
+					/*{--*/
+					.elementtext_2_stroke_1_left_panel {
+						display: inline-block;		/*вертикальное выравнивание*/
+						line-height: normal;		/*вертикальное выравнивание*/
+					    height: 42px;				/*вертикальное выравнивание---формула этого значение
+					    							(font_1 + font_2 + margin-bottom_1)*/
+					    vertical-align: middle;		/*вертикальное выравнивание*/
+						margin-right: 0;
+						
+					}
+						.string_1_elementtext_2_stroke_1_left_panel {
+							font: 14px "Roboto";		/*font_1*/
+							color: #fff;
+							font-weight: 400;
+							text-transform: normal;
+							letter-spacing: 0.100em;
+							line-height: 14px;
+							margin-bottom: 14px;		/*margin-bottom_1*/
+						}
+						.string_2_elementtext_2_stroke_1_left_panel {
+							font: 14px "Roboto";		/*font_2*/
+							color: #91afdb;
+							font-weight: 400;
+							text-transform: normal;
+							letter-spacing: 0.100em;
+							text-transform: uppercase;
+						}
+					/*--}*/					
+				/*}--*/
+				/*{--*/
+				.stroke_2_left_panel {
+					width: 215px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 40px;
+				}
+					.elementtext_1_stroke_2_left_panel {
+						font: 14px "Roboto";
+						color: #91afdb;
+						font-weight: 400;
+						text-transform: normal;
+						letter-spacing: 0.100em;
+						margin-bottom: 35px;
+						text-align: left;
+					}
+					/*{--*/
+					.box_ul_elementimagetext_2-3_stroke_2_left_panel {
+						height: 30px;		/*вертикальное выравнивание*/
+		  				line-height: 30px; /*вертикальное выравнивание*/
+
+						text-align: center;		/*горизонтальное выравнивание в данном случае*/ 
+
+						width: 214px;
+						border: 1px solid #fff;
+						border-radius: 5px;
+						margin-bottom: 5px;
+					}
+					.box_ul_elementimagetext_4_stroke_2_left_panel {
+						height: 30px;		/*вертикальное выравнивание*/
+		  				line-height: 30px; /*вертикальное выравнивание*/
+
+						text-align: center;		/*горизонтальное выравнивание в данном случае*/ 
+
+						width: 214px;
+						border: 1px solid #fff;
+						border-radius: 5px;
+						margin-bottom: 0px;		/*отличительное значение*/
+					}
+						/*{--*/
+						#ul_elementimagetext_2_stroke_2_left_panel, #ul_elementimagetext_3_stroke_2_left_panel, #ul_elementimagetext_4_stroke_2_left_panel {
+							display: inline-block;		/*вертикальное выравнивание*/
+							line-height: normal;		/*вертикальное выравнивание*/
+						    height: 14px;				/*вертикальное выравнивание*/
+						    vertical-align: middle;		/*вертикальное выравнивание*/						
+							
+							width: 200px;
+						}
+							#ul_elementimagetext_2_stroke_2_left_panel li, #ul_elementimagetext_3_stroke_2_left_panel li, #ul_elementimagetext_4_stroke_2_left_panel li {
+								float:left;
+								margin-right: 10px;
+							}
+							#ul_elementimagetext_2_stroke_2_left_panel li:last-child, #ul_elementimagetext_3_stroke_2_left_panel li:last-child, #ul_elementimagetext_4_stroke_2_left_panel li:last-child {
+								margin-right: 0;
+							}
+						/*}--*/
+					/*}--*/
+					.li_2_elementtext_2_stroke_2_left_panel {
+						font: 12px "Roboto";		
+						color: #fff;
+						font-weight: 900;
+						letter-spacing: 0.100em;
+						line-height: 14px;
+						text-transform: uppercase;
+					}
+					.div_3_elementtext_2_stroke_2_left_panel, .div_3_elementtext_3_stroke_2_left_panel, .div_3_elementtext_4_stroke_2_left_panel {
+						font: 12px "Roboto";		
+						color: #fff;
+						font-weight: 900;
+						text-transform: normal;
+						letter-spacing: 0.100em;
+						line-height: 14px;
+						margin-bottom: 14px;		
+						text-align: right;
+						text-transform: uppercase;
+					}
+				/*}--*/
+			/*}--*/
+			/*{--*/
+			.content_2_left_panel {
+				display: block;
+				width: 250px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 30px;
+			}
+				/*{--*/
+				.stroke_3_left_panel {
+					margin-top: 40px;
+				}
+					.elementtext_1_stroke_3_left_panel {
+						font: 14px "Roboto";
+						color: #91afdb;
+						font-weight: 400;
+						text-transform: normal;
+						letter-spacing: 0.100em;
+						margin-bottom: 35px;
+						text-align: left;
+						width: 215px;
+						margin-left: auto;
+						margin-right: auto;
+					}	
+					/*{--*/
+					.box_ul_my_cabinet {
+						height: 45px;		/*вертикальное выравнивание*/
+		  				line-height: 45px; /*вертикальное выравнивание*/
+
+						width: 255px;						
+					}
+					.markerleft_box_ul {
+						display: block;
+						position: absolute;
+						width: 4px;
+						height: 45px;
+						background: #76b345;
+					}
+					.box_ul_my_garden {
+						height: 45px;		/*вертикальное выравнивание*/
+		  				line-height: 45px; /*вертикальное выравнивание*/
+
+						width: 255px;				
+					}
+						#ul_my_cabinet, #ul_my_garden {
+							display: inline-block;		/*вертикальное выравнивание*/
+							line-height: normal;		/*вертикальное выравнивание*/
+							height: 20px;				/*вертикальное выравнивание*/ /*= .text_my_cabinet, .text_my_garden {line-height: 22px}*/  
+							vertical-align: middle;		/*вертикальное выравнивание*/						
+							
+							margin-left: 15px;	
+							width: 200px;
+						}
+							#ul_my_cabinet li, #ul_my_garden li {
+								float:left;
+								margin-right: 10px;
+							}
+							#ul_my_cabinet li:last-child, #ul_my_garden li:last-child {
+								margin-right: 0;
+							}
+								.text_my_cabinet, .text_my_garden {
+									display: block; 
+									color: #FFF;
+									font: 12px "Roboto";
+									line-height: 20px;	/*= #ul_my_cabinet, #ul_my_garden {height: 22px}*/
+									font-weight: normal;
+									letter-spacing: 1.5px;
+								}
+					/*}--*/			
+				/*}--*/
+			/*}--*/
+		/*}--*/
+		.centerleft_panel {
+			width: 100%;
+			padding-top: 0;
+		}
+			.center_panel {
+				margin-left: 260px;
+				height: 805px;
+				background: #F4F2F0;
+			}
+/*-------------MY_CABINET-------------------------VVVVVVVVVVVVVV------------------------------*/
+
+.stroke_1_center_panel {
+	background: #FFF;
+}
+.stroke_2_center_panel {
+	background: #FBFBFB;
+	border-top: 1px solid #E6ECED;
+	border-bottom: 1px solid #E6ECED; 
+}
+/*{--*/
+.box_strokeafter_2_center_panel {
+	display: block;
+	width: 75vw;
+	margin-left: 2.73vw;
+}
+	/*{--*/
+	.box_1_center_panel {
+		display: block;
+		float: left;
+		margin-right: 1.17vw;
+	}
+		/*{--*/
+		.nav_stroke_3_box_1_center_panel {
+			display: block;
+			width: 49.22vw;
+		}
+			/*{--*/
+			.ul_elementgradient_1_stroke_3_box_1_center_panel {
+				margin-top: 0;
+			}
+				.ul_elementgradient_1_stroke_3_box_1_center_panel li {
+					float: left;
+					margin-right: 1.7vw; /*vw, vh - единицы измерения в зависимости от высоты и ширины экрана*/
+				}
+				.ul_elementgradient_1_stroke_3_box_1_center_panel li:last-child {
+					margin-right: 0;
+				}
+					.elementgradient_1_stroke_3_box_1_center_panel, .elementgradient_2_stroke_3_box_1_center_panel, .elementgradient_3_stroke_3_box_1_center_panel {
+						display: block;
+						width: 15.1vw;
+						height: 110px;
+						border-radius: 4px;
+						box-shadow: 0px 1px 1px #575757;
+					}
+						.text-1-elementgradient_1_stroke_3_box_1_center_panel, .text-1-elementgradient_2_stroke_3_box_1_center_panel, .text-1-elementgradient_3_stroke_3_box_1_center_panel {
+							font: 12px "Roboto";		
+							color: #fff;
+							font-weight: 400;
+							letter-spacing: 0.100em;
+							line-height: 14px;
+							text-transform: uppercase;
+
+							opacity: 0.6;						
+						}					
+						.text-2-elementgradient_1_stroke_3_box_1_center_panel, .text-2-elementgradient_2_stroke_3_box_1_center_panel, .text-2-elementgradient_3_stroke_3_box_1_center_panel {
+							font: 22px "Roboto";		
+							color: #fff;
+							font-weight: 500;
+							letter-spacing: 0.100em;
+							line-height: 14px;
+							text-transform: uppercase;
+						}	
+							.text-2-elementgradient_1_stroke_3_box_1_center_panel span, .text-2-elementgradient_2_stroke_3_box_1_center_panel span, .text-2-elementgradient_3_stroke_3_box_1_center_panel span {
+								font: 16px "Roboto";		
+								color: #fff;
+								font-weight: 400;
+								letter-spacing: 0.100em;
+								line-height: 14px;
+								text-transform: none;
+							}
+					.elementgradient_1_stroke_3_box_1_center_panel {
+						background: linear-gradient(45deg, #FA707C, #BE5892);
+					}
+					.elementgradient_2_stroke_3_box_1_center_panel {
+						background: linear-gradient(45deg, #64A974, #489FC9);
+					}
+					.elementgradient_3_stroke_3_box_1_center_panel {
+						background: linear-gradient(45deg, #4B79E8, #8F66EA);
+					}
+			/*}--*/
+		/*}--*/
+	/*}--*/
+	/*{--*/
+	.box_2_center_panel {
+		display: block;
+		float: left;
+		margin-right: 0;
+	}
+		.elementgradient-z1-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: relative;
+			width: 23.44vw;
+			height: 183px;
+			border-radius: 4px;
+			box-shadow: 0px 1px 1px #575757;
+			background: linear-gradient(45deg, #747BBD, #498FCB);
+			z-index: 1;		
+		}
+		.elementgradient_1-z2-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: absolute;
+			width: 23.44vw;
+			height: 89px;
+			border-radius: 4px 4px 0 0;
+			background: #fff;
+			opacity: 0.08;
+			z-index: 2; /*положение слоя*/
+		}
+		.textelementgradient_1-z2-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: absolute;
+			font: 12px "Roboto";		
+			color: #fff;
+			opacity: 1;
+			font-weight: 400;
+			letter-spacing: 0.100em;
+			line-height: 14px;
+			text-transform: uppercase;
+
+			z-index: 3;
+		}
+		.textelementgradient_1-z2-4_stroke_3_box_2_center_panel span{
+			opacity: 0.6;
+		}
+			.textelementgradient_1-z2-4_stroke_3_box_2_center_panel a:visited {
+				color: #fff;
+			}
+
+		.box_elementgradient_2-z2-4_stroke_3_box_2_center_panel {
+			display: block;
+			position: absolute;
+			margin-top: 100px;
+			z-index: 2;
+		}
+			.elementgradient_2-z2-4_stroke_3_box_2_center_panel {
+				display: block;
+				position: absolute;
+				width: 21.5vw;
+				height: 48px;
+				border-radius: 4px;
+				border: 1px solid rgba(255,255,255, 0.15);
+				background: rgba(255,255,255, 0.1);
+			}
+			.textelementgradient_2-z2-4_stroke_3_box_2_center_panel {
+				display: block;
+				position: absolute;
+				
+				font: 13px "Roboto";		
+				color: #fff;
+				font-weight: 400;
+				letter-spacing: 0.100em;
+				line-height: 14px;
+				text-transform: normal;
+
+				opacity: 0.7;
+			}
+	/*}--*/
+/*}--*/
+
+/*-------------MY_CABINET-------------------------AAAAAAAAAAAAAAA------------------------------*/
+/*-------------ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ----------VVVVVVVVVVVVVV-------
+.outer {
+    height: 200px;
+    line-height: 200px;
+    background-color: #ffc;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fcc;
+}		
+-------------ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ----------AAAAAAAAAAAAAAAA-------*/

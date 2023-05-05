@@ -1,0 +1,407 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700|Kanit|Open+Sans:300,400,500,600,700,900|Source+Sans+Pro:300,400,500,600,700,900|Fira+Sans+Condensed:300,400,500,700,900|Roboto:300,400,500,600,700,900);
+
+@font-face{
+font-family: 'AstakhovSkin';
+src: url('../fonts/AstakhovSkin'),
+url('../fonts/AstakhovSkin.otf') format('opentype');
+}
+@font-face{
+font-family: 'CrossTown';
+src: url('../fonts/CrossTown'),
+url('../fonts/CrossTown.ttf') format('truetype');
+}
+
+::selection {
+background: #B4FF00;
+}
+
+html {    
+
+}
+body {
+	font: 14px/18px 'Times New Roman', Times, sans-serif;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding:0;
+	outline: none;
+}
+
+a, a:hover {text-decoration: none;}
+
+.blackout {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center; /*вертикальное выравнивание flex*/
+	justify-content: center; /*горизонтальное выравнивание*/
+	
+	background-color: rgba(0,0,0,.3);
+    width: 100%;
+    height:100% ;
+    position: fixed;
+    top:0;
+    left:0;
+}
+	.captcha_window {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center; /*вертикальное выравнивание flex*/
+		justify-content: center; /*горизонтальное выравнивание*/
+
+		position: fixed;
+		width: 400px;
+		height: 350px;
+		background-color: #fff;
+
+		border-radius: 3px; /*закругление углов (общее)*/
+		-webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+		-moz-border-radius: 3px; /*закругление углов (FireFox)*/
+		-khtml-border-radius: 3px; /*закругление углов (Safari)*/
+	}
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+		    /* display: none; <- Crashes Chrome on hover */
+		    -webkit-appearance: none;
+		    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+		}
+		input[type="number"] {
+			width: 280px;
+			height: 40px;
+			
+			border: 1px solid #cccccc;
+			border-radius: 3px; /*закругление углов (общее)*/
+			-webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+			-moz-border-radius: 3px; /*закругление углов (FireFox)*/
+			-khtml-border-radius: 3px; /*закругление углов (Safari)*/
+
+			background: #fff !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+			outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+
+			font: 16px "Tahoma";
+			
+		}
+
+		.type_captcha {
+			margin-top: 10px;
+			color: #000;
+		}
+
+		.captcha_image_1 {
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+		.captcha_image_1, .captcha_image_2, .type_captcha {
+			display: block;
+			width: 280px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+			.style_image--captcha {
+				border: 1px dashed #c6c6c6;
+				border-radius: 4px; /*закругление углов (общее)*/
+				-webkit-border-radius: 4px; /*/закругление углов (Google Chrome)*/
+				-moz-border-radius: 4px; /*закругление углов (FireFox)*/
+				-khtml-border-radius: 4px; /*закругление углов (Safari)*/
+			}
+
+		#button_captcha {
+			width: 280px;
+			height: 40px;
+			
+			border-radius: 4px; /*закругление углов (общее)*/
+			-webkit-border-radius: 4px; /*/закругление углов (Google Chrome)*/
+			-moz-border-radius: 4px; /*закругление углов (FireFox)*/
+			-khtml-border-radius: 4px; /*закругление углов (Safari)*/
+
+			margin-top: 15px;
+
+			background: #0086FF;
+			cursor: pointer;
+			border: 1px solid transparent;
+
+			color: #fff;
+			font: 14px "Roboto";
+			font-weight: 700;
+			text-transform: uppercase;
+
+			-o-transition: background 0.3s ease;
+			-moz-transition: background 0.3s ease;
+			-ms-transition: background 0.3s ease;
+			-webkit-transition: background 0.3s ease;
+			transition: background 0.3s ease;
+		}
+		#button_captcha:hover {
+			background: #339eff;
+		}
+
+.main_background {
+	display: flex;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+
+	align-items: center; /*вертикальное выравнивание flex*/
+	justify-content: center; /*горизонтальное выравнивание*/
+	background: linear-gradient(-45deg, #8910ad, #8204f5);
+}
+	.form_flexbox {
+		display: flex;
+		width: 57.37vw;
+		height: 53.54vh;
+
+		background: #fff;
+		background-clip: padding-box;
+		border: 0.344vw solid rgba(255, 255, 255, 0.3);
+
+		border-radius: 0.574vw; /*закругление углов (общее)*/
+		-webkit-border-radius: 0.574vw; /*/закругление углов (Google Chrome)*/
+		-moz-border-radius: 0.574vw; /*закругление углов (FireFox)*/
+		-khtml-border-radius: 0.574vw; /*закругление углов (Safari)*/
+	}
+		.left_side {
+			display: flex;
+			position: relative;
+			flex-flow: column;
+			width: 50vw;
+			align-items: center; /*вертикальное выравнивание flex*/
+			justify-content: center; /*горизонтальное выравнивание*/
+		}
+		.stroketext_heading_ls {
+			position: absolute;
+			top: 5.05vh;
+		}
+			input[type="text"], input[type="password"], .button_login {
+				width: 24.67vw;
+				height: 40px;
+
+				outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+
+				border-radius: 4px; /*закругление углов (общее)*/
+				-webkit-border-radius: 4px; /*/закругление углов (Google Chrome)*/
+				-moz-border-radius: 4px; /*закругление углов (FireFox)*/
+				-khtml-border-radius: 4px; /*закругление углов (Safari)*/
+			}
+			input[type="text"], input[type="password"] {
+				border: 1px solid #cccccc;
+				/*background-color: #fff !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+				font: 14px "Roboto";
+				font-weight: 500;
+
+				text-indent: 45px;  /*Отступ первой строки текста, отступ курсора*/
+			}
+			input[type="text"] {
+				background: url(/img/guest/login/icon_type_input_login.png) no-repeat scroll 19px 19px #fff;
+				background-position: 15px 50%;
+			}
+			input[type="password"] {
+				background: url(/img/guest/login/icon_type_input_password.png) no-repeat scroll 19px 19px #fff;
+				background-position: 15px 50%;
+			}
+
+			.button_login {
+				margin-top: 15px;
+
+				cursor: pointer;
+				background: #741bb7;
+    			border: 1px solid #6c17bf;
+
+				color: #fff;
+				font: 14px "Open Sans";
+				font-weight: 600;
+				text-transform: uppercase;
+
+				-webkit-transition: all 0.4s ease;
+				-moz-transition: all 0.4s ease;
+				-o-transition: all 0.4s ease;;
+				-ms-transition: all 0.4s ease;
+				transition: all 0.4s ease;
+			}
+			.button_login:hover {
+				background: #f8b00c;
+				border: 1px solid #e2a416;
+			}
+				.img_icon_button {
+					margin-right: 2px;
+				}
+
+			.onfocus {
+				color: #42adf4;
+
+				-webkit-transition: all 0.3s, ease;
+				-moz-transition: all 0.3s, ease;
+				-o-transition: all 0.3s, ease;
+				-ms-transition: all 0.3s, ease; 
+                transition: all 0.3s, ease;
+			}
+			.onblur {
+				color: #000;
+                -webkit-transition: all 1.8s, ease;
+				-moz-transition: all 1.8s, ease;
+				-o-transition: all 1.8s, ease;
+				-ms-transition: all 1.8s, ease; 
+                transition: all 1.8s, ease;
+			}
+
+		.stroketext_heading_ls {
+			color: #595959;
+			font: 16px "Open Sans";
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.025em;
+		}
+
+		.stroketext_1_ls, .stroketext_2_ls {
+			width: 24.67vw; 
+			margin-bottom: 10px;
+
+			color: #707070;
+			font: 13px "Open Sans";
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+		.stroketext_2_ls {
+			margin-top: 20px;
+		}
+
+		.recovery_password {
+			margin-top: 20px;
+
+			color: #741bb7;
+			font: 13px "Roboto";
+			font-weight: 400;
+		}
+		.recovery_password:hover {
+			text-decoration: underline;
+		}
+
+		.right_side {
+			display: flex;
+			position: relative;
+			flex-flow: column wrap;
+			justify-content: center;
+			align-items: center;
+
+			width: 50vw;
+			background: linear-gradient(-45deg, #ff8500, #efe81b);
+			border-radius: 0 0.172vw 0.172vw 0;
+			-webkit-border-radius: 0 0.172vw 0.172vw 0; /*/закругление углов (Google Chrome)*/
+			-moz-border-radius: 0 0.172vw 0.172vw 0; /*закругление углов (FireFox)*/
+			-khtml-border-radius: 0 0.172vw 0.172vw 0; /*закругление углов (Safari)*/
+			-o-border-radius: 0 0.172vw 0.172vw 0; /*закругление углов (Opera)*/
+			-ms-border-radius: 0 0.172vw 0.172vw 0;
+		}
+			.text_1 {
+				position: absolute;
+				top: 5.25vh;
+
+				color: #fff;
+				opacity: 0.5;
+				font: 16px "Roboto";
+				font-weight: 500;
+				text-transform: uppercase;
+				letter-spacing: 0.075em;
+			}
+			.text_2 {
+				color: #fff;
+				opacity: 0.8;
+				font: 15px "Roboto";
+				font-weight: 400;
+				letter-spacing: 0.075em;
+				text-align: center;
+
+				margin-top: 25px;
+			}
+			.text_3 {
+				position: absolute;
+				bottom: 5.06vh;
+
+				color: #fff;
+				opacity: 0.5;
+				font: 14px "Roboto";
+				font-weight: 400;
+				letter-spacing: 0.025em;
+			}
+
+			.button_register {
+				width: 10.5vw;
+				height: 40px;
+
+				margin-top: 15px;
+
+				background: transparent;
+				cursor: pointer;
+				border: 1px solid #fff;
+				color: #fff;
+				font: 14px "Roboto";
+				font-weight: 900;
+				text-transform: uppercase;
+
+				border-radius: 3px; /*закругление углов (общее)*/
+				-webkit-border-radius: 3px; /*/закругление углов (Google Chrome)*/
+				-moz-border-radius: 3px; /*закругление углов (FireFox)*/
+				-khtml-border-radius: 3px; /*закругление углов (Safari)*/
+
+				-webkit-transition: color 0.3s ease, background 0.3s ease;
+				-moz-transition: color 0.3s ease, background 0.3s ease;
+				-o-transition: color 0.3s ease, background 0.3s ease;
+				-ms-transition: color 0.3s ease, background 0.3s ease;
+				transition: color 0.3s ease, background 0.3s ease;
+			}
+			.button_register:hover {
+				color: #fc9404;
+				background: #fff;
+			}
+
+	.footer_left_main_background {
+		position: absolute;
+		bottom: 15px;
+
+		color: #fff;
+		opacity: 0.9;
+		font: 12px "Open Sans";
+		font-weight: 400;
+	}
+	.footer_left_main_background a {
+        color: #fff;
+    }
+	.footer_left_main_background a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+    .footer_left_main_background a:visited {
+        color: #fff;
+    }
+
+@media screen and (max-height: 760px) {
+	.form_flexbox {
+		height: 403px;
+	}
+	.recovery_password {
+		margin-top: 20px;
+	}
+}
+@media screen and (min-height: 885px) {
+	.recovery_password {
+		margin-top: 20px;
+	}
+	.text_3 {
+		bottom: 8.4vh;
+	}
+}
+
+
+@media screen and (max-device-width: 1240px) {
+	.recovery_password {
+		margin-top: 20px;
+	}
+	.form_flexbox {
+		width: 900px;
+    	height: 700px;
+	}
+		.button_register {
+			width: 200px;
+		}
+}

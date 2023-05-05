@@ -1,0 +1,409 @@
+@import url(/auth/style/style.css);
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 260px;
+    bottom: 0px;
+    height: 100px;
+    border-top: 1px solid #E6ECED;
+    background: #fff;
+
+    color: #8e8e8e;
+    font: 13px "Roboto";
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+.input_sum_bet {
+    width: 156px;
+    height: 30px;
+    border: 1px solid #616161;
+    -webkit-border-radius: 22px;
+    -o-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 24px;
+}
+/*.sum_win {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #616161;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 20px;
+
+    color: #15d424;
+}*/
+
+button {
+    width: 153px;
+    height: 35px;
+    cursor: pointer;
+
+    color: #fff;
+    font: 14px "Roboto";
+    font-weight: 500;
+
+    background: #3e3e3e;
+    border: none;
+
+    -webkit-border-radius: 4px;     /*для других браузеров*/
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;            
+    border-radius: 4px;
+
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+button:hover {
+    background: #0bcc46;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.stroke_1_center_panel {
+	background: #FFF;
+}
+.stroke_2_center_panel {
+	background: #FBFBFB;
+	border-top: 1px solid #E6ECED;
+	border-bottom: 1px solid #E6ECED; 
+}
+.box_strokeafter_2_center_panel {
+	display: block;
+	width: 75vw;
+	margin-left: 2.73vw;
+	margin-top: 30px;
+}
+	.box_1_center_panel {
+		display: block;
+		float: left;
+		margin-right: 1.17vw;
+	}
+
+    .centerer_message {
+        display: flex;
+        flex-direction: column;
+    }
+    .MessageBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(63, 191, 52);;
+        color: #fff;
+        font: 16px "Roboto";
+        width: 100%;
+        height: 40px;
+    }
+    .MessageBlock a, .MessageBlock a:hover, .MessageBlock a:visited {
+        color: #fff;
+    }
+
+    .centerer_e1s3_center_panel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    		.element_1_stroke_3_box_1_center_panel, .element_2_stroke_3_box_1_center_panel {
+    			display: flex;
+    			/*justify-content: center;
+    			align-items: center;*/
+    			
+    			background: #fff;
+    			-webkit-border-radius: 4px;		/*для других браузеров*/
+    			-moz-border-radius: 4px;			
+    			border-radius: 4px;
+    			box-shadow: 0px 1px 2px #c4c4c4;
+    		}
+            .element_1_stroke_3_box_1_center_panel {
+                width: 100%;
+                min-height: 305px;
+                margin-top: 22px;
+            }
+
+    			.box_elements_e1s3b1cp {
+    				display: flex;
+    				/*justify-content: center;
+    				align-items: center;*/
+                    flex-direction: column;
+                    width: 100%;
+    				padding: 20px 0 20px 0;
+                    margin-left: 35px;
+    			}
+                .box_2_elements_e1s3b1cp {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+
+                    padding: 20px 0 20px 0;
+                }
+    				.img_e1s3b1cp {
+    					display: block;
+    					width: 100px;
+    					height: auto;
+    					margin-right: 23px;
+    				}
+
+                    .stroka_1 {
+                        display: flex;
+                        justify-content: center;
+                        width: 95%;
+
+                        font: 16px "Fira Sans Condensed";
+                        color: #383838;
+                        font-weight: 500;
+                        letter-spacing: 0.025em;
+                        line-height: 25px;
+                    }
+                        .l_1, .l_2, .l_3 {
+                            color: #3e3e3e;
+                            background: transparent;
+                            border: 1px solid #3e3e3e;    
+                            
+                            padding: 5px 10px 5px 10px;
+                            border-radius: 4px;
+                            margin-right: 15px;
+
+                            transition: all 0.3s ease;
+                            -o-transition: all 0.3s ease;
+                            -ms-transition: all 0.3s ease;
+                            -moz-transition: all 0.3s ease;
+                            -webkit-transition: all 0.3s ease;
+                        }
+                        .l_1:hover, .l_2:hover, .l_3:hover {
+                            color: #3e3e3e;
+                            background: #ffcb42;
+                            border: 1px solid #e2ac1d;
+
+                            transition: all 0.3s ease;
+                            -o-transition: all 0.3s ease;
+                            -ms-transition: all 0.3s ease;
+                            -moz-transition: all 0.3s ease;
+                            -webkit-transition: all 0.3s ease;
+                        }
+
+                    .stroka_2 {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 95%;
+                        font: 17px "Fira Sans Condensed";
+                        color: #383838;
+                        font-weight: 400;
+                        letter-spacing: 0.025em;
+                        line-height: 25px;
+                        margin-top: 21px;
+                    }
+
+    				.text_e1s3b1cp {
+    					display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        width: 95%;
+                        margin-top: 35px;
+
+    					font: 16px "Fira Sans Condensed";
+    				    color: #383838;
+    				    font-weight: 400;
+    				    letter-spacing: 0.025em;
+    				    line-height: 25px;
+    				}
+                        /*.text_graphic {
+                            margin-top: 20px;
+                            margin-bottom: -59px;
+                            
+                            color: #1a1a1a;
+                            font: 18px "Roboto";
+                            text-align: center;
+                            letter-spacing: 0.025em;
+                            font-weight: 900;
+                        }*/
+                        .canvas_graphic {
+                            width: 100%;
+                        }
+    					.text_e1s3b1cp a, .text_e1s3b1cp a:visited {
+    						color: #66a535;
+    					}
+    					.text_e1s3b1cp a:hover {
+    						color: #6b35a5;
+    					}
+
+		.element_1_stroke_4_box_1_center_panel { 
+
+		}
+
+        .graph {
+            height: 100px;
+        }
+		#box_stroke_5_box_1_center_panel {
+			display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            min-height: 288px;
+            
+            background: transparent;
+            -webkit-border-radius: 4px;     /*для других браузеров*/
+            -moz-border-radius: 4px;            
+            border-radius: 4px;                
+		}
+
+/*-------------------------VVVVVVVVVVVVVVVVVVVVVVVVVVVVV-----------Список рефералов---------*/
+            h1 {
+                color: #383838;
+                font: 28px "Roboto";
+                font-weight: 900;
+                letter-spacing: 1px;
+
+                margin-top: 50px;
+                margin-bottom: 20px;    
+            }
+            #div_table_e1s4b1c {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                max-height: 500px;
+                overflow-y: scroll;
+                
+                margin-top: -1px;
+                margin-bottom: 80px;
+
+                border: 1px solid #e4e4e4;
+                border-bottom: none;
+                border-top: none;
+
+                background: transparent;
+            }
+            #div_table_e1s4b1c::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                border-radius: 8px;
+                background-color: #F5F5F5;
+            }
+
+            #div_table_e1s4b1c::-webkit-scrollbar {
+              width: 10px;
+              background-color: #F5F5F5;
+            }
+
+            #div_table_e1s4b1c::-webkit-scrollbar-thumb {
+              border-radius: 10px;
+              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+              background-color: #898989;
+            }
+            #div_table_e1s4b1c::-webkit-scrollbar-thumb:hover {
+              background-color: #505050;
+            }
+
+                .table_e1s4b1c {
+                    display: block;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-collapse: collapse; /*убрать двойные линии между ячейками*/
+
+                    color: #000;
+                    font: 15px "Roboto";        
+                    font-weight: 400;
+                    letter-spacing: 0.010em;
+                    text-align: center;
+                }
+                .table_e1s4b1c_2 {
+                    display: block;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-collapse: collapse; /*убрать двойные линии между ячейками*/
+
+                    margin-top: 25px;
+
+                    color: #7c7c7c;
+                    font: 15px "Roboto";        
+                    font-weight: 400;
+                    letter-spacing: 0.010em;
+                    text-align: center;
+                    border: 1px solid #e8e8e8;
+                }
+                .table_e1s4b1c_2 th:last-child {
+                    width: 18%;
+                }
+                .table_e1s4b1c th, .table_e1s4b1c_2 th {
+                    width: 15vw;
+                    height: 40px;
+                    line-height: 14px;
+                    border-bottom: 3px solid #ffcb42;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    background: #3e3e3e;
+                    color: #fff;
+                } 
+                .table_e1s4b1c_2 th {
+                    cursor: pointer;
+                }
+                .cell {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .cell > img {
+                    margin-left: 5px;
+                }
+                .table_e1s4b1c_2 th:last-child {
+                    cursor: default;
+                }          
+                .table_e1s4b1c td, .table_e1s4b1c_2 td {
+                    width: 15vw;
+                    height: 40px;   /*вертикальное выравнивание*/
+                    line-height: 14px;      /*вертикальное выравнивание*/
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                    .table_e1s4b1c a, .table_e1s4b1c a:visited, .table_e1s4b1c_2 a, .table_e1s4b1c_2 a:visited {
+                        color: #3e3e3e;
+                        text-decoration: underline;
+                    }
+                    .table_e1s4b1c a:hover, .table_e1s4b1c_2 a:hover {
+                        color: #008ab3;
+                        text-decoration: none;
+                    }
+
+
+                .table_e1s4b1c {
+                        display: block;
+                        border-collapse: collapse; /*убрать двойные линии между ячейками*/
+
+                        text-align: center;
+                    }
+                    .table_e1s4b1c th {
+                        width: 15vw;
+                        height: 40px;
+                        line-height: 14px;
+                        border-bottom: 3px solid #ececec;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        background: linear-gradient(180deg, #e7f0fd, #fff);
+                    }               
+                    
+/*-------------------------AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-----------Список рефералов---------*/

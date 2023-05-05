@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700|Kanit|Open+Sans:300,400,500,600,700,900|Source+Sans+Pro:300,400,500,600,700,900|Fira+Sans+Condensed:300,400,500,700,900|Roboto:300,400,500,600,700,900);
+@font-face{
+font-family: 'AstakhovSkin';
+src: url('../fonts/AstakhovSkin'),
+url('../fonts/AstakhovSkin.otf') format('opentype');
+}
+@font-face{
+font-family: 'CrossTown';
+src: url('../fonts/CrossTown'),
+url('../fonts/CrossTown.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Ubuntu-B';
+src: url('../fonts/Ubuntu-B'),
+url('../fonts/Ubuntu-B.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Ubuntu-BI';
+src: url('../fonts/Ubuntu-BI'),
+url('../fonts/Ubuntu-BI.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Ubuntu-L';
+src: url('../fonts/Ubuntu-L'),
+url('../fonts/Ubuntu-L.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Ubuntu-:LI';
+src: url('../fonts/Ubuntu-LI'),
+url('../fonts/Ubuntu-LI.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'Ubuntu-R';
+src: url('../fonts/Ubuntu-R'),
+url('../fonts/Ubuntu-R.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Ubuntu-:RI';
+src: url('../fonts/Ubuntu-RI'),
+url('../fonts/Ubuntu-RI.ttf') format('truetype');
+}
+
+
+::selection {
+background: #B4FF00;
+}
+
+html {    
+	min-height: 100%;
+	min-width: 100vw;
+	overflow-x: hidden;
+}
+body {
+	min-height: 100%;
+	font: 14px/18px 'Times New Roman', Times, sans-serif;
+	background: #F5F5F5 url(../img/home/background.png) repeat 0 0;
+}
+.over_wrapper {
+	height: 9px;
+	background: #F5F5F5 url(../img/home/over_wrapper.png) repeat-x 0 0;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0; /* Убираем отступы */
+	height: 100%;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding:0;
+	outline: none;
+}
+
+a, a:hover {text-decoration: none;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.centerer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #fff;
+}
+	.centerer .container {
+
+	}
+		.centerer .container .text_1 {
+			color: #525252;
+			font: 35px Roboto;
+			font-weight: 900;
+			letter-spacing: 0.05em;
+			text-align: center;
+		}
+		.centerer .container .text_2 {
+			margin-top: 10px;
+
+			color: #525252;
+			font: 20px Roboto;
+			font-weight: 500;
+			letter-spacing: 0.05em;
+			text-align: center;
+		}
+		.centerer .container .text_3 {
+			margin-top: 30px;
+
+			color: #525252;
+			font: 15px Roboto;
+			font-weight: 400;
+			letter-spacing: 0.05em;
+			text-align: center;
+		}
+
+		a, a:visited {
+			color: #2ee481;
+			font-weight: 900;
+			text-transform: uppercase;
+		}

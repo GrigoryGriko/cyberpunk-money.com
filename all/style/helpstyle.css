@@ -1,0 +1,259 @@
+@import url(/all/style/main_style.css);
+
+
+    
+        .content_1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            min-height: 0;
+            background: #fff;
+        }
+
+            .content_1 .stroke_1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                margin-top: 60px;
+                width: 100%;
+                height: 100px;
+
+                position: relative;
+            }
+                .stroke_1 .text_1 {
+                    white-space: nowrap;    /*убрать перенос слов*/
+
+                    color: #525252;
+                    font: 12px Source Sans Pro;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    font-weight: 600;
+                }
+
+                .container_round_shape {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 820px;
+
+                    margin-top: 35px;
+                }
+
+                    .content_1 .line_left, .content_1 .line_right {
+                        width: 100%;
+                        height: 1px;
+                        background: #efefef;
+                        content: "";    /*контент блока, в данном случае пустой, чтобы отображался*/
+                        
+                    }
+                    .stroke_1 .text_2 {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #efefef;
+
+                        border-radius: 5em;
+                        -o-border-radius: 5em;
+                        -moz-border-radius: 5em;
+                        -ms-border-radius: 5em;
+                        -webkit-white-space: nowrap;    /*убрать перенос слов*/
+
+                        padding: 20px 32px 20px 32px;
+                    }
+
+
+                        .stroke_1 .text {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #525252;
+                            font-family: 'Fira Sans Condensed';
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            font-size: 38px;
+                            font-weight: 700;
+                        }
+                            .stroke_1 .text span {
+                                font-size: 36px;
+                                font-weight: 400;
+                            }
+
+                        .container_round_shape div > img {
+                            width: 15px;
+                            height: auto;
+                            top: -15px;
+                            left: 30px;
+                            position: absolute;
+                        }
+
+
+            .container_content {
+                width: 1200px;
+            }
+
+            .content_1 .stroke_2 {
+                display: flex;
+                justify-content: center;
+                margin-top: 45px;
+                margin-bottom: 95px;
+                width: 100%;
+            }
+                .content_1 .stroke_2 .text {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 15px;
+                        width: 100%;
+                        height: 55px;
+                        
+                        font: 13px "Roboto";
+                        color: #989898;
+                        letter-spacing: 0.21em;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-weight: 500;
+
+                        border: 1px solid #EFEFEF;
+                        -o-border-radius: 11px;
+                        -moz-border-radius: 11px;
+                        -ms-border-radius: 11px;
+                        -webkit-border-radius: 11px;
+                        border-radius: 11px;
+                }
+
+            .content_1 .stroke_3 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                width: 100%;
+
+
+            }
+                .content_1 .stroke_3 .block {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-flow: column;
+                    
+                    margin-left: 20px;
+                    width: 360px;
+                    height: 186px;
+
+                    border: 1px solid #EFEFEF;
+                    -o-border-radius: 11px;
+                    -moz-border-radius: 11px;
+                    -ms-border-radius: 11px;
+                    -webkit-border-radius: 11px;
+                    border-radius: 11px;
+                }
+                    .content_1 .stroke_3 .block p {
+                        font: 20px "Roboto";
+                        font-weight: 300;
+                        text-align: center;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        color: #757575;
+
+                        margin-top: 20px;
+                        margin-bottom: 8px;
+                    }
+                    .content_1 .stroke_3 .block a, .content_1 .stroke_3 .block a:visited {
+
+                        font: 16px "Roboto";
+                        font-weight: 900;
+                        text-align: center;
+                        letter-spacing: 1px;
+                        color: #525252;
+
+                        -webkit-transition: color 0.3s ease;
+                        -moz-transition:color 0.3s ease;
+                        -o-transition: color 0.3s ease;
+                        -ms-transition: color 0.3s ease;
+                        transition: color 0.3s ease;
+                    }
+                    .content_1 .stroke_3 .block a:hover {
+                        color: #4dbaf9;
+
+                        -webkit-transition: color 0.3s ease;
+                        -moz-transition:color 0.3s ease;
+                        -o-transition: color 0.3s ease;
+                        -ms-transition: color 0.3s ease;
+                        transition: color 0.3s ease;
+                    }
+
+            .content_3 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                width: 100%;
+                background: transparent;
+
+                padding-bottom: 60px;
+            }
+                .content_3 .block_q:first-child {
+                    margin-top: 60px;
+                }
+                .content_3 .block_q {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 1170px;
+                    height: 58px;
+
+                    background: #fff;
+                    margin-bottom: 10px;
+
+                    color: #525252;
+                    font: 14px "Roboto";
+                    letter-spacing: 0.055em;
+                    line-height: 22px;
+                    font-weight: 400;
+                    text-align: center;
+                    text-align: left;
+
+                    transition: height 0.3s ease;
+                    -o-transition: height 0.3s ease;
+                    -ms-transition: height 0.3s ease;
+                    -moz-transition: height 0.3s ease;
+                    -webkit-transition: height 0.3s ease;
+
+                    overflow: hidden;
+                }
+                    .content_3 .block_q .question {
+                        display: flex;
+                        justify-content: center;
+
+                        width: 100%;
+                        min-height: 58px;
+                        height: 58px;
+                        color: #f20066;
+                        font-weight: 700;
+
+                        cursor: pointer;
+
+                        transition: color 0.3s ease;
+                        -o-transition: color 0.3s ease;
+                        -moz-transition: color 0.3s ease;
+                        -ms-transition: color 0.3s ease;
+                        -webkit-transition: color 0.3s ease;
+                    }
+                        .content_3 .block_q .question .container {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between; 
+                            width: 97%;
+                            height: 100%;
+                        }
+
+                    .content_3 .block_q .description {
+                            width: 97%;
+                            margin-top: 21px;
+                            margin-bottom: 26px;
+                        
+                    }
